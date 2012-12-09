@@ -6,7 +6,7 @@ Official Github account for the Buffalo Front&ndash;end Developers meet up group
 Come hang out every month and talk shop, learn cool tricks, engage in thoughtful discussions and debate all centered around Front-end Web Design. This site and files are the product of a community effort where we learn by doing.
 
 ##Social Networks
-1. Nextplex &raquo; [http://nextplex.com/buffalo-ny/resources/groups/118](http://nextplex.com/buffalo-ny/resources/groups/bflofred)
+1. Nextplex &raquo; [http://nextplex.com/buffalo-ny/resources/groups/bflofred](http://nextplex.com/buffalo-ny/resources/groups/bflofred)
 2. Twitter &raquo; [@BfloFRED](https://twitter.com/BfloFRED)
 3. Github &raquo; [https://github.com/BfloFRED](https://github.com/BfloFRED)
 4. Email &raquo; [bflofred@gmail.com](mailto:bflofred@gmail.com)

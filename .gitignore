@@ -1,1 +1,5 @@
+#Ignore Mac OS Hidden File
+.DS_Store
+
+# Ignore sass-cache files
 .sass-cache

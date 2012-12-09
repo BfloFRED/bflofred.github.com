@@ -1,0 +1,4 @@
+// fluid type
+@function fluidtype( $target, $context ) {
+    @return ( $target / $context ) * 1em;
+}

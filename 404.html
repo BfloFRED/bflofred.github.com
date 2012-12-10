@@ -1,157 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>Page Not Found :(</title>
-        <style>
-            ::-moz-selection {
-                background: #b3d4fc;
-                text-shadow: none;
-            }
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>BfloFRED &raquo; Front&ndash;end Developers Meetup group &raquo; Buffalo, New York</title>
+        <meta name="description" content="Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate all centered around Front-end Web Design as we see it for Buffalo, New York">
 
-            ::selection {
-                background: #b3d4fc;
-                text-shadow: none;
-            }
+        <!-- search engine robot: don't index the 404.html -->
+        <meta name="robots" content="nofollow">
 
-            html {
-                padding: 30px 10px;
-                font-size: 20px;
-                line-height: 1.4;
-                color: #737373;
-                background: #f0f0f0;
-                -webkit-text-size-adjust: 100%;
-                -ms-text-size-adjust: 100%;
-            }
+        <!-- viewport -->
+        <!-- The keyword “device-width” is intended to set the width of the Viewport to the width of the device that is viewing the page -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-            html,
-            input {
-                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            }
+        <!-- Tells the browser if the page has been built to be viewable on a small screen -->
+        <!-- http://blogs.msdn.com/b/iemobile/archive/2010/11/22/the-ie-mobile-viewport-on-windows-phone-7.aspx -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
 
-            body {
-                max-width: 500px;
-                _width: 500px;
-                padding: 30px 20px 50px;
-                border: 1px solid #b3b3b3;
-                border-radius: 4px;
-                margin: 0 auto;
-                box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-                background: #fcfcfc;
-            }
+        <!-- Apple Specific Meta Tags -->
+        <!-- http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html -->
+        <!-- If content is set to yes, the web application runs in full-screen mode; otherwise, it does not. -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- Sets the style of the status bar for a web application. -->
+        <!-- If set to black, the status bar has a black background -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-            h1 {
-                margin: 0 10px;
-                font-size: 50px;
-                text-align: center;
-            }
+        <!-- style sheet -->
+        <link rel="stylesheet" href="css/main.css">
 
-            h1 span {
-                color: #bbb;
-            }
-
-            h3 {
-                margin: 1.5em 0 0.5em;
-            }
-
-            p {
-                margin: 1em 0;
-            }
-
-            ul {
-                padding: 0 0 0 40px;
-                margin: 1em 0;
-            }
-
-            .container {
-                max-width: 380px;
-                _width: 380px;
-                margin: 0 auto;
-            }
-
-            /* google search */
-
-            #goog-fixurl ul {
-                list-style: none;
-                padding: 0;
-                margin: 0;
-            }
-
-            #goog-fixurl form {
-                margin: 0;
-            }
-
-            #goog-wm-qt,
-            #goog-wm-sb {
-                border: 1px solid #bbb;
-                font-size: 16px;
-                line-height: normal;
-                vertical-align: top;
-                color: #444;
-                border-radius: 2px;
-            }
-
-            #goog-wm-qt {
-                width: 220px;
-                height: 20px;
-                padding: 5px;
-                margin: 5px 10px 0 0;
-                box-shadow: inset 0 1px 1px #ccc;
-            }
-
-            #goog-wm-sb {
-                display: inline-block;
-                height: 32px;
-                padding: 0 10px;
-                margin: 5px 0 0;
-                white-space: nowrap;
-                cursor: pointer;
-                background-color: #f5f5f5;
-                background-image: -webkit-linear-gradient(rgba(255,255,255,0), #f1f1f1);
-                background-image: -moz-linear-gradient(rgba(255,255,255,0), #f1f1f1);
-                background-image: -ms-linear-gradient(rgba(255,255,255,0), #f1f1f1);
-                background-image: -o-linear-gradient(rgba(255,255,255,0), #f1f1f1);
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                appearance: none;
-                *overflow: visible;
-                *display: inline;
-                *zoom: 1;
-            }
-
-            #goog-wm-sb:hover,
-            #goog-wm-sb:focus {
-                border-color: #aaa;
-                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-                background-color: #f8f8f8;
-            }
-
-            #goog-wm-qt:hover,
-            #goog-wm-qt:focus {
-                border-color: #105cb6;
-                outline: 0;
-                color: #222;
-            }
-
-            input::-moz-focus-inner {
-                padding: 0;
-                border: 0;
-            }
-        </style>
+        <!-- Modernizr -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <div class="container">
-            <h1>Not found <span>:(</span></h1>
-            <p>Sorry, but the page you were trying to view does not exist.</p>
-            <p>It looks like this was the result of either:</p>
-            <ul>
-                <li>a mistyped address</li>
-                <li>an out-of-date link</li>
-            </ul>
-            <script>
-                var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
-            </script>
-            <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
-        </div>
+        <div class="page">
+            <header class="primary-header" role="banner">
+                <h1 class="brand-name"><a href="/" rel="me bookmark">BfloFRED</a></h1>
+                <nav class="primary-nav" role="navigation">
+                    <ul class="primary-nav-list">
+                        <li class="primary-nav-link"><a href="#" rel="bookmark">Item1</a></li>
+                        <li class="primary-nav-link"><a href="#" rel="bookmark">Item2</a></li>
+                        <li class="primary-nav-link"><a href="#" rel="bookmark">Item3</a></li>
+                        <li class="primary-nav-link"><a href="#" rel="bookmark">Item4</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <h1>Not found <span>:(</span></h1>
+                <p>Sorry, but the page you were trying to view does not exist.</p>
+                <p>It looks like this was the result of either:</p>
+                <ul>
+                    <li>a mistyped address</li>
+                    <li>an out-of-date link</li>
+                </ul>
+                <script>
+                    var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
+                </script>
+                <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+            </div>
+            <footer class="primary-footer" role="contentinfo">
+                <!-- BfloFRED e-mail address -->
+                <!-- http://microformats.org -->
+                <!-- http://www.wbwip.com/wbw/emailencoder.html -->
+                <ul class="vcard">
+                    <li class="fn">BfloFRED</li>
+                    <li class="email"><span aria-hidden="true" class="icon-envelope"></span><a href="mailto:&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
+                    <li class="url"><span aria-hidden="true" class="icon-earth"></span><a href="//bflofred.github.com" rel="me bookmark">https://bflofred.github.com</a></li>
+                    <li class="adr">
+                        <address>
+                            <span class=""><span aria-hidden="true" class="icon-location"></span><a href="//coworkbuffalo.com" rel="external">CoWork</a></span>
+                            <span class="street-address">225 Delaware Avenue</span>
+                            <span class="locality">Buffalo</span>
+                            <span class="region">New York</span>
+                        </address>
+                    </li>
+                </ul>
+            </footer>
+        </div><!-- /end.page -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+
+        <!-- needs to be prepended to script before compiling -->
+        <script src="js/minified/main-min.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
     </body>
 </html>

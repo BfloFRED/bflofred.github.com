@@ -430,7 +430,7 @@ table {
   content: "\e00d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000383}}
 html,
 button,
 input,
@@ -439,51 +439,51 @@ textarea {
   color: #222;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000387}}
 body {
   font-size: 1em;
   line-height: 1.4;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000392}}
 a {
   color: #0000ee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000396}}
 a:visited {
   color: #551a8b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003100}}
 a:hover {
   color: #0066ee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003104}}
 a:focus {
   outline: thin dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003111}}
 a:hover,
 a:active {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003118}}
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003123}}
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003129}}
 hr {
   display: block;
   height: 1px;
@@ -493,67 +493,101 @@ hr {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003139}}
 img {
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003144}}
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003151}}
 textarea {
   resize: vertical;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003138}}
-body {
-  font: normal 100%/1.5 Helvetica, sans-serif;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003160}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003164}}
+body {
+  font: normal 100%/1.5 Helvetica, sans-serif;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(6.09756%, rgba(100, 100, 225, 0.25)), color-stop(6.09756%, rgba(0, 0, 0, 0)), color-stop(8.53659%, rgba(0, 0, 0, 0)), color-stop(8.53659%, rgba(100, 100, 225, 0.25)), color-stop(14.63415%, rgba(100, 100, 225, 0.25)), color-stop(14.63415%, rgba(0, 0, 0, 0)), color-stop(17.07317%, rgba(0, 0, 0, 0)), color-stop(17.07317%, rgba(100, 100, 225, 0.25)), color-stop(23.17073%, rgba(100, 100, 225, 0.25)), color-stop(23.17073%, rgba(0, 0, 0, 0)), color-stop(25.60976%, rgba(0, 0, 0, 0)), color-stop(25.60976%, rgba(100, 100, 225, 0.25)), color-stop(31.70732%, rgba(100, 100, 225, 0.25)), color-stop(31.70732%, rgba(0, 0, 0, 0)), color-stop(34.14634%, rgba(0, 0, 0, 0)), color-stop(34.14634%, rgba(100, 100, 225, 0.25)), color-stop(40.2439%, rgba(100, 100, 225, 0.25)), color-stop(40.2439%, rgba(0, 0, 0, 0)), color-stop(42.68293%, rgba(0, 0, 0, 0)), color-stop(42.68293%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(100, 100, 225, 0.25)), color-stop(48.78049%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(0, 0, 0, 0)), color-stop(51.21951%, rgba(100, 100, 225, 0.25)), color-stop(57.31707%, rgba(100, 100, 225, 0.25)), color-stop(57.31707%, rgba(0, 0, 0, 0)), color-stop(59.7561%, rgba(0, 0, 0, 0)), color-stop(59.7561%, rgba(100, 100, 225, 0.25)), color-stop(65.85366%, rgba(100, 100, 225, 0.25)), color-stop(65.85366%, rgba(0, 0, 0, 0)), color-stop(68.29268%, rgba(0, 0, 0, 0)), color-stop(68.29268%, rgba(100, 100, 225, 0.25)), color-stop(74.39024%, rgba(100, 100, 225, 0.25)), color-stop(74.39024%, rgba(0, 0, 0, 0)), color-stop(76.82927%, rgba(0, 0, 0, 0)), color-stop(76.82927%, rgba(100, 100, 225, 0.25)), color-stop(82.92683%, rgba(100, 100, 225, 0.25)), color-stop(82.92683%, rgba(0, 0, 0, 0)), color-stop(85.36585%, rgba(0, 0, 0, 0)), color-stop(85.36585%, rgba(100, 100, 225, 0.25)), color-stop(91.46341%, rgba(100, 100, 225, 0.25)), color-stop(91.46341%, rgba(0, 0, 0, 0)), color-stop(93.90244%, rgba(0, 0, 0, 0)), color-stop(93.90244%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(100, 100, 225, 0.25)), color-stop(100%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(100, 100, 225, 0.25) 0%, rgba(100, 100, 225, 0.25) 6.09756%, rgba(0, 0, 0, 0) 6.09756%, rgba(0, 0, 0, 0) 8.53659%, rgba(100, 100, 225, 0.25) 8.53659%, rgba(100, 100, 225, 0.25) 14.63415%, rgba(0, 0, 0, 0) 14.63415%, rgba(0, 0, 0, 0) 17.07317%, rgba(100, 100, 225, 0.25) 17.07317%, rgba(100, 100, 225, 0.25) 23.17073%, rgba(0, 0, 0, 0) 23.17073%, rgba(0, 0, 0, 0) 25.60976%, rgba(100, 100, 225, 0.25) 25.60976%, rgba(100, 100, 225, 0.25) 31.70732%, rgba(0, 0, 0, 0) 31.70732%, rgba(0, 0, 0, 0) 34.14634%, rgba(100, 100, 225, 0.25) 34.14634%, rgba(100, 100, 225, 0.25) 40.2439%, rgba(0, 0, 0, 0) 40.2439%, rgba(0, 0, 0, 0) 42.68293%, rgba(100, 100, 225, 0.25) 42.68293%, rgba(100, 100, 225, 0.25) 48.78049%, rgba(0, 0, 0, 0) 48.78049%, rgba(0, 0, 0, 0) 51.21951%, rgba(100, 100, 225, 0.25) 51.21951%, rgba(100, 100, 225, 0.25) 57.31707%, rgba(0, 0, 0, 0) 57.31707%, rgba(0, 0, 0, 0) 59.7561%, rgba(100, 100, 225, 0.25) 59.7561%, rgba(100, 100, 225, 0.25) 65.85366%, rgba(0, 0, 0, 0) 65.85366%, rgba(0, 0, 0, 0) 68.29268%, rgba(100, 100, 225, 0.25) 68.29268%, rgba(100, 100, 225, 0.25) 74.39024%, rgba(0, 0, 0, 0) 74.39024%, rgba(0, 0, 0, 0) 76.82927%, rgba(100, 100, 225, 0.25) 76.82927%, rgba(100, 100, 225, 0.25) 82.92683%, rgba(0, 0, 0, 0) 82.92683%, rgba(0, 0, 0, 0) 85.36585%, rgba(100, 100, 225, 0.25) 85.36585%, rgba(100, 100, 225, 0.25) 91.46341%, rgba(0, 0, 0, 0) 91.46341%, rgba(0, 0, 0, 0) 93.90244%, rgba(100, 100, 225, 0.25) 93.90244%, rgba(100, 100, 225, 0.25) 100%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  background-position: left top;
+  -webkit-background-origin: content;
+  -moz-background-origin: content;
+  -ms-background-origin: content-box;
+  -o-background-origin: content-box;
+  background-origin: content-box;
+  -webkit-background-clip: content-box;
+  -moz-background-clip: content-box;
+  background-clip: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003173}}
 img,
-iframe {
+iframe,
+object,
+embed,
+video {
+  height: auto;
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003197}}
+.page {
+  max-width: 41em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003210}}
+.primary-header {
+  background: rgba(42, 77, 236, 0.42);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003221}}
 [data-icon],
 [class^="icon"] {
   -webkit-font-smoothing: subpixel-antialiased;
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003231}}
 .map-link {
   display: inline-block;
   padding: 0.5em 1em;
   margin: 1em;
-  background: #808080;
+  background: #a0c1dc;
   color: #FFF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003238}}
 .map-link:hover, .map-link:focus {
   color: #fff;
-  background: #333;
+  background: #7ba9ce;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003180}}
-.static-map-img {
-  display: block;
-}
-@media all and (min-width: 34.375em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003180}}
-  .static-map-img {
-    display: none;
-  }
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003250}}
 .map-container {
   width: 100%;
   margin: 0 auto;
@@ -565,13 +599,13 @@ iframe {
   /* Medium Screens */
 }
 @media all and (min-width: 34.375em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003250}}
   .map-container {
     display: block;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003263}}
 .google-map {
   width: 100%;
   height: 100%;
@@ -582,12 +616,23 @@ iframe {
   bottom: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003273}}
+.static-map-img {
+  display: block;
+}
+@media all and (min-width: 34.375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003273}}
+  .static-map-img {
+    display: none;
+  }
+}
+
 @-ms-viewport {
   width: device-width;
 }
 
 @media print {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003391}}
   * {
     background: transparent !important;
     color: #000 !important;
@@ -595,48 +640,48 @@ iframe {
     text-shadow: none !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003399}}
   a,
   a:visited {
     text-decoration: underline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003403}}
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003407}}
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003415}}
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003420}}
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003425}}
   thead {
     display: table-header-group;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003430}}
   tr,
   img {
     page-break-inside: avoid;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003434}}
   img {
     max-width: 100% !important;
   }
@@ -645,7 +690,7 @@ iframe {
     margin: 0.5cm;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003444}}
   p,
   h2,
   h3 {
@@ -653,7 +698,7 @@ iframe {
     widows: 3;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/OWC-ElitePro\/GIT\/bflofred\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003450}}
   h2,
   h3 {
     page-break-after: avoid;

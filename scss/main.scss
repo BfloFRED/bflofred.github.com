@@ -15,12 +15,11 @@
 
 @import "compass";
 
-
 // ==========================================================================
-// $Susy * http://susy.oddbird.net/guides/getting-started/#start-compass
+// $Vars
 // ==========================================================================
 
-@import "susy";
+@import "partials/vars";
 
 
 // ==========================================================================
@@ -28,13 +27,6 @@
 // ==========================================================================
 
 @import "partials/normalize";
-
-
-// ==========================================================================
-// $Mixins
-// ==========================================================================
-
-@import "partials/vars";
 
 
 // ==========================================================================
@@ -57,6 +49,13 @@
 
 // custom icons
 @import "partials/icons";
+
+
+// ==========================================================================
+// $Susy * http://susy.oddbird.net/guides/getting-started/#start-compass
+// ==========================================================================
+
+@import "susy";
 
 
 // ==========================================================================
@@ -158,12 +157,12 @@ textarea {
 // ==========================================================================
 
 * {
-    @include box-sizing(border-box); // Box Sizing FTW
+    // Box Sizing FTW
+    @include box-sizing(border-box);
 }
 
 body {
     font: normal 100%/1.5 Helvetica, sans-serif;
-    @include susy-grid-background;
 }
 
 img,
@@ -181,6 +180,8 @@ video {
 // ==========================================================================
 // Reference
 // http://susy.oddbird.net/guides/reference
+// http://oddbird.net/demos/susy-off-canvas
+// http://scottdavis.github.com/blog/2011/12/30/introduction-to-building-websites-using-susy-and-compass-vertical-rhythm
 
 // Explanation
 // Use the container() mixin to create your initial grid context.
@@ -194,12 +195,10 @@ video {
 // nav { @include span-columns(3,12); }
 // ==========================================================================
 
-.page {
-    // Establish our default 4-column grid container.
-    // Default: $total-columns
-    @include container();
-    // Create a media-query breakpoint at a min-width of 30em
-    // And use a larger 8-column grid within that media-query.
+.container {
+    @include at-breakpoint($small-columns) { @include susy-grid-background; }
+    @include at-breakpoint($medium-columns) { @include susy-grid-background; }
+    @include at-breakpoint($large-columns) { @include susy-grid-background; }
 }
 
 
@@ -219,7 +218,8 @@ video {
 
 [data-icon],
 [class^="icon"] {
-    -webkit-font-smoothing: subpixel-antialiased; // http://maxvoltar.com/archive/-webkit-font-smoothing
+    // http://maxvoltar.com/archive/-webkit-font-smoothing
+    -webkit-font-smoothing: subpixel-antialiased;
     font-size: 2em;
 }
 
@@ -253,8 +253,8 @@ video {
     height: 0;
     padding-top: 38%;
     position: relative;
-    display: none; /* Hide for small screens */
-    /* Medium Screens */
+    display: none; // Hide for small screens
+    // Medium Screens
     @media all and (min-width: 34.375em) {
         display: block;
     }
@@ -262,7 +262,8 @@ video {
 
 .google-map {
     width: 100%;
-    height: 100%; // had to specify height/width
+    // had to specify height/width
+    height: 100%;
     position: absolute;
     top: 0;
     right: 0;
@@ -272,7 +273,8 @@ video {
 
 .static-map-img {
     display: block;
-    @media all and (min-width: 34.375em) { // Medium Screens
+    // Medium Screens
+    @media all and (min-width: 34.375em) {
         display: none;
     }
 }

@@ -2,28 +2,23 @@
 // $Settings
 // ==========================================================================
 
+// IE Support --------------------------------------------------------------
 // Susy & Compass use HTML hacks to support IE 6 and 7. You can turn that off:
 // http://scottdavis.github.com/blog/2011/12/30/introduction-to-building-websites-using-susy-and-compass-vertical-rhythm
 $legacy-support-for-ie6 : false;
 $legacy-support-for-ie7 : false;
 
-
-// ==========================================================================
-// $Grid
-// ==========================================================================
-
-$show-grid-backgrounds  : true;
-
-$total-columns  : 12;// The number of Columns in your default Grid Layout.
-$column-width   : 2.5em;// The width of a single Column in your Grid.
-$gutter-width   : 1em;// The space between Columns.
-$grid-padding   : $gutter-width;// Padding on the left and right of a Grid Container.
+// Settings ----------------------------------------------------------------
+$total-columns    : 5;
+$column-width     : 4em;
+$gutter-width     : 1em;
+$grid-padding     : 1em;
 
 
 // ==========================================================================
 // $Breakpoints
 // ==========================================================================
 
-// $media-layout: <min-width> <layout> <max-width> <ie-fallback>;
-// - You must supply either <min-width> or <layout>.
-//$media-layout: 25.1em 8;// Use 8 cols between min 30em & max 60em.
+$small-columns   : 4;
+$medium-columns   : 8;
+$large-columns    : 12;

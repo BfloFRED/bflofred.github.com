@@ -10,7 +10,7 @@
 1. Nextplex - [http://nextplex.com/buffalo-ny/resources/groups/118](http://nextplex.com/buffalo-ny/resources/groups/bflofred)
 2. Twitter - [@BfloFRED](https://twitter.com/BfloFRED)
 3. Github - [https://github.com/BfloFRED](https://github.com/BfloFRED)
-4. Email - [bflofred@gmail.com](bflofred@gmail.com)
+4. Email - [&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;](&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;)
 5. Google+ [https://plus.google.com/u/0/104139815087059308926](https://plus.google.com/u/0/104139815087059308926)
 6. Google+ Community [https://plus.google.com/u/0/communities/110622691529120317012](https://plus.google.com/u/0/communities/110622691529120317012)
 
@@ -27,12 +27,13 @@
 4. Compass & Sass
 5. Susy Grids?
 6. Font Icons via Fontcustom
+7. IE Support &raquo; gte IE8
 
 ##Code Style Guide
 1. Classes and ID's use a hyphen to split words (i.e. ``my-class`` or ``nav-link``)
 2. Keep Id and Class attributes in the same order. Class first then ID
 3. Try to keep things as modular as possible
-4. Keep HTML as semantic as posssible. Dont add useless spans or divs.
+4. Keep HTML as semantic as posssible. Dont add useless spans, i, or divs.
 5. multiple element selectors are given their own unique line like so…
 <pre><code class="code-markup">h1,
 h2,

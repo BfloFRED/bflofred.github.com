@@ -5,11 +5,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>BfloFRED &raquo; Front&ndash;end Developers Meetup group &raquo; Buffalo, New York</title>
-        <meta name="description" content="Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate all centered around Front-end Web Design as we see it for Buffalo, New York">
 
-        <!-- search engine robot: don't index the 404.html -->
-        <meta name="robots" content="nofollow">
+        <!-- site title: make it good -->
+        <title>BfloFRED &raquo; Front&ndash;end Developers Meetup group &raquo; Buffalo, New York</title>
+
+        <!-- keep the meta description content value to around 160 chars -->
+        <meta name="description" content="A local meet up group and Open Source organization based out of Buffalo, New York focused on a passion for Front-end Web Design and Development using browser native technologies.">
+
+        <!-- search engine robot: index this page -->
+        <meta name="robots" content="all">
 
         <!-- viewport -->
         <!-- The keyword “device-width” is intended to set the width of the Viewport to the width of the device that is viewing the page -->
@@ -24,12 +28,32 @@
         <!-- http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html -->
         <!-- If content is set to yes, the web application runs in full-screen mode; otherwise, it does not. -->
         <meta name="apple-mobile-web-app-capable" content="yes">
+
         <!-- Sets the style of the status bar for a web application. -->
         <!-- If set to black, the status bar has a black background -->
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
+        <!-- Opera Speed Dial autoreloading behavior that will be used if the user adds the site to a Speed Dial slot. Makes things more dynamic -->
+        <!-- Note that the value is set in seconds. 3600 will thus reload the Speed Dial entry every hour. -->
+        <meta http-equiv="preview-refresh" content="3600">
+
+        <!-- Opera Speed Dial and Bookmark Enhancements -->
+        <!-- http://dev.opera.com/articles/view/opera-speed-dial-enhancements -->
+        <!-- Opera Bookmark Icon = 128 x 128 .png/.gif/.jpg -->
+        <link rel="icon" type="image/png" href="http://path/to/128x128image.png">
+        <!-- Opera Speed Dial Icon = 512 x 512 .png/.gif/.jpg -->
+        <link rel="icon" type="image/png" href="http://path/to/200x200image.png">
+        <!-- Customizing Speed Dial CSS Styles -->
+        <link rel=stylesheet href="minimizedstyles.css" media="(view-mode:minimized)">
+
+        <!-- ie7 style sheet -->
+        <!--[if IE 7]><link rel="stylesheet" href="css/ie7.css"><![endif]-->
+
+        <!-- ie8 style sheet -->
+        <!--[if IE 8]><link rel="stylesheet" href="css/ie8.css"><![endif]-->
+
         <!-- style sheet -->
-        <link rel="stylesheet" href="css/main.css">
+        <!--[if gt IE 8]><!--><link rel="stylesheet" href="css/main.css"><!--<![endif]-->
 
         <!-- Modernizr -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>

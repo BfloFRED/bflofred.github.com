@@ -30,17 +30,17 @@
 
 
 // ==========================================================================
-// $Mixins
-// ==========================================================================
-
-@import "partials/mixins";
-
-
-// ==========================================================================
 // $Functions
 // ==========================================================================
 
 @import "partials/functions";
+
+
+// ==========================================================================
+// $Mixins
+// ==========================================================================
+
+@import "partials/mixins";
 
 
 // ==========================================================================
@@ -49,13 +49,6 @@
 
 // custom icons
 @import "partials/icons";
-
-
-// ==========================================================================
-// $Susy * http://susy.oddbird.net/guides/getting-started/#start-compass
-// ==========================================================================
-
-//@import "susy";
 
 
 // ==========================================================================
@@ -179,27 +172,83 @@ video {
 // $Grid
 // ==========================================================================
 // Reference
-// http://susy.oddbird.net/guides/reference
-// http://oddbird.net/demos/susy-off-canvas
-// http://scottdavis.github.com/blog/2011/12/30/introduction-to-building-websites-using-susy-and-compass-vertical-rhythm
+// Demo: http://codepen.io/lesjames/pen/ClsdE
+// Article: http://24ways.org/2012/redesigning-the-media-query
 
-// Explanation
-// Use the container() mixin to create your initial grid context.
-// Use the span-columns() mixin to declare the width of an element on grid
+// Grid based on https://github.com/necolas/griddle by Nicolas Gallagher (@necolas)
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: em($grid-gutter);
+    padding-right: em($grid-gutter);
+}
 
-// Display Grid Background
-// @include susy-grid-background;
+.grid {
+    display: block;
+    padding: 0;
+    margin: 0 -0.5 * em($grid-gutter);
+    text-align: left;
+    text-rendering: optimizespeed;
+}
 
-// Examples
-// nav spans 3 columns of total 12.
-// nav { @include span-columns(3,12); }
-// ==========================================================================
+// Note - this class uses Compass includes
+.grid-cell {
+    width: 100%;
+    @include inline-block;
+    @include box-sizing(border-box);
+    margin: 0;
+    padding: 0 0.5 * em($grid-gutter);
+    vertical-align: top;
+    text-align: left;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-rendering: auto;
+}
 
-// .container {
-//     @include at-breakpoint($small-columns) { @include susy-grid-background; }
-//     @include at-breakpoint($medium-columns) { @include susy-grid-background; }
-//     @include at-breakpoint($large-columns) { @include susy-grid-background; }
-// }
+// create mq to fit columns
+@mixin breakpoint($min) {
+    @media (min-width: fixed($min) + em($grid-gutter)) {
+
+        // create a fixed width centered layout
+        .wrapper {
+            width: fixed($min) - em($grid-gutter);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        // css gradient overlay to help visualize columns
+        // Note - this class uses Compass includes
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0; bottom: 0;
+            pointer-events: none;
+            left: 50%;
+            width: fixed($min) + em($grid-gutter);
+            margin-left: fixed($min) / -2 - (em($grid-gutter)/2);
+            @include background(linear-gradient(left, transparent $grid-gutter, transparentize(red, .8) $grid-gutter, transparentize(red, .8) $grid-gutter + $grid-column));
+            @include background-size($grid-gutter + $grid-column);
+        }
+
+        // sass content block variable
+        @content
+    }
+}
+
+/* create 5 column fixed layout */
+@include breakpoint(5) {}
+
+/* create 8 column layout with sidebar */
+@include breakpoint(8) {
+    .main { width: fixed(5); }
+    .sidebar { width: fixed(3); }
+}
+
+/* create 12 column layout with sidebar */
+@include breakpoint(12) {
+    .main { width: fixed(8); }
+    .sidebar { width: fixed(4); }
+}
 
 
 // ==========================================================================
@@ -207,8 +256,7 @@ video {
 // ==========================================================================
 
 .primary-header {
-    background: rgba(42, 77, 236, 0.42);
-    //@include span-columns(12, 12);
+    //background: rgba(42, 77, 236, 0.42);
 }
 
 

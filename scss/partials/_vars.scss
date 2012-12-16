@@ -1,24 +1,5 @@
 // ==========================================================================
 // $Settings
 // ==========================================================================
-
-// IE Support --------------------------------------------------------------
-// Susy & Compass use HTML hacks to support IE 6 and 7. You can turn that off:
-// http://scottdavis.github.com/blog/2011/12/30/introduction-to-building-websites-using-susy-and-compass-vertical-rhythm
-// $legacy-support-for-ie6 : false;
-// $legacy-support-for-ie7 : false;
-
-// Settings ----------------------------------------------------------------
-// $total-columns    : 5;
-// $column-width     : 4em;
-// $gutter-width     : 1em;
-// $grid-padding     : 1em;
-
-
-// ==========================================================================
-// $Breakpoints
-// ==========================================================================
-
-// $small-columns   : 4;
-// $medium-columns   : 8;
-// $large-columns    : 12;
+$grid-column: 60px;
+$grid-gutter: 20px;

@@ -1,4 +1,22 @@
+// ==========================================================================
+// $Fluid Type
+// ==========================================================================
+
 // fluid type
 @function fluidtype( $target, $context ) {
     @return ( $target / $context ) * 1em;
+}
+
+// ==========================================================================
+// $Grid
+// ==========================================================================
+
+/* convert pixels to ems - defaults to 16px base */
+@function em($px, $base: 16px) {
+    @return ($px / $base) * 1em;
+}
+
+/* find width of columns */
+@function fixed($col) {
+    @return $col * em($grid-column + $grid-gutter)
 }

@@ -19,6 +19,8 @@
 2. Domain Name - Dennis Gaebel
 	1. [buffalofred.com](buffalofred.com)?
 	2. [bflofred.com](bflofred.com)?
+3. Nextplex logo - Lail Brown Delivered!
+"The colors can be changed if you need to, there isn't a defined brand color for the logo, and we've used a few."
 
 ##The Build
 1. HTML5 Boilerplate

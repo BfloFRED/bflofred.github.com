@@ -55,7 +55,7 @@
 // $Susy * http://susy.oddbird.net/guides/getting-started/#start-compass
 // ==========================================================================
 
-@import "susy";
+//@import "susy";
 
 
 // ==========================================================================
@@ -195,11 +195,11 @@ video {
 // nav { @include span-columns(3,12); }
 // ==========================================================================
 
-.container {
-    @include at-breakpoint($small-columns) { @include susy-grid-background; }
-    @include at-breakpoint($medium-columns) { @include susy-grid-background; }
-    @include at-breakpoint($large-columns) { @include susy-grid-background; }
-}
+// .container {
+//     @include at-breakpoint($small-columns) { @include susy-grid-background; }
+//     @include at-breakpoint($medium-columns) { @include susy-grid-background; }
+//     @include at-breakpoint($large-columns) { @include susy-grid-background; }
+// }
 
 
 // ==========================================================================

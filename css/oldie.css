@@ -1,1 +1,579 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:0.67em 0}h2{font-size:1.5em;margin:0.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:0.83em;margin:1.67em 0}h6{font-size:0.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace, serif;_font-family:'courier new', monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}body{font:normal 100%/1.5 HelveticaNeue,Helvetica,sans-serif}h1,h2,h3,h4,h5,h6{font-family:"Fjalla One",sans-serif;font-weight:400;text-transform:uppercase}html,button,input,select,textarea{color:#222}body{font-size:1em;line-height:1.4}a{color:#00e}a:visited{color:#551a8b}a:hover{color:#06e}a:focus{outline:thin dotted}a:hover,a:active{outline:0}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{font:normal 100%/1.5 Helvetica,sans-serif}img,iframe,object,embed,video{height:auto;max-width:100%}.wrapper{width:50%;margin:0 auto}.map-link{display:inline-block;padding:0.5em 1em;margin:1em;background:#a0c1dc;color:#FFF}.map-link:hover,.map-link:focus{color:#fff;background:#7ba9ce}.map-container{width:100%;margin:0 auto;height:0;padding-top:38%;position:relative;display:none}@media all and (min-width: 34.375em){.map-container{display:block}}.google-map{width:100%;height:100%;position:absolute;top:0;right:0;left:0;bottom:0}.static-map-img{display:block}@media all and (min-width: 34.375em){.static-map-img{display:none}}@-ms-viewport{width:device-width}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+/* ! normalize.css v1.0.1 | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\0000340}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\0000347}}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\0000355}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\0000364}}
+[hidden] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\0000377}}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\0000388}}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\0000393}}
+body {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003103}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003110}}
+a:hover,
+a:active {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003122}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003127}}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003132}}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003137}}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003142}}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003147}}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003153}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003159}}
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003163}}
+blockquote {
+  margin: 1em 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003168}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003173}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003180}}
+p,
+pre {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003188}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003196}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003203}}
+q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003209}}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003215}}
+small {
+  font-size: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003222}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003229}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003233}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003246}}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003250}}
+dd {
+  margin: 0 0 0 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003257}}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003263}}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003275}}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003282}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003292}}
+figure {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003302}}
+form {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003307}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003316}}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003330}}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003341}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003355}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003363}}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003372}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003382}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003391}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003397}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003404}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_normalize\.scss}line{font-family:\00003415}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* convert pixels to ems - defaults to 16px base */
+/* find width of columns */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000312}}
+body {
+  font: normal 100%/1.5 HelveticaNeue, Helvetica, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000321}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\0000374}}
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\0000378}}
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\0000383}}
+a {
+  color: #0000ee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\0000387}}
+a:visited {
+  color: #551a8b;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\0000391}}
+a:hover {
+  color: #0066ee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\0000395}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003102}}
+a:hover,
+a:active {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003109}}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003114}}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003120}}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003130}}
+img {
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003135}}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003142}}
+textarea {
+  resize: vertical;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003151}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003156}}
+body {
+  font: normal 100%/1.5 Helvetica, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003164}}
+img,
+iframe,
+object,
+embed,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003170}}
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003189}}
+.map-link {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 1em;
+  background: #a0c1dc;
+  color: #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003196}}
+.map-link:hover, .map-link:focus {
+  color: #fff;
+  background: #7ba9ce;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003208}}
+.map-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 0;
+  padding-top: 38%;
+  position: relative;
+  display: none;
+}
+@media all and (min-width: 34.375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003208}}
+  .map-container {
+    display: block;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003221}}
+.google-map {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003232}}
+.static-map-img {
+  display: block;
+}
+@media all and (min-width: 34.375em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003232}}
+  .static-map-img {
+    display: none;
+  }
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003351}}
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003359}}
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003363}}
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003367}}
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003375}}
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003380}}
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003385}}
+  thead {
+    display: table-header-group;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003390}}
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003394}}
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003404}}
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\00003410}}
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

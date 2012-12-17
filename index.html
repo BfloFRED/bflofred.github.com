@@ -4,6 +4,21 @@
 <!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
+        <!-- https://developers.google.com/webfonts/docs/webfont_loader -->
+        <script type="text/javascript">
+            WebFontConfig = {
+                google: { families: [ 'Fjalla One' ] }
+            };
+            (function() {
+                var wf = document.createElement('script');
+                wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                    '://ajax.googleapis.com/ajax/libs/webfont/1.1.0/webfont.js';
+                wf.type = 'text/javascript';
+                wf.async = 'true';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(wf, s);
+            })();
+        </script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
         <!-- site title: make it good -->
@@ -44,7 +59,7 @@
         <!-- Opera Speed Dial Icon = 512 x 512 .png/.gif/.jpg -->
         <link rel="icon" type="image/png" href="http://path/to/200x200image.png">
         <!-- Customizing Speed Dial CSS Styles -->
-        <link rel=stylesheet href="minimizedstyles.css" media="(view-mode:minimized)">
+        <!-- <link rel=stylesheet href="minimizedstyles.css" media="(view-mode:minimized)"> -->
 
         <!-- Google Fonts -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fjalla+One">

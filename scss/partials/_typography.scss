@@ -19,7 +19,27 @@ body {
 // ==========================================================================
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: $custom-title-font;
     font-weight: 400;
     text-transform: uppercase;
+    // @include transition(.3s opacity ease-in-out);
+}
+
+.wf-loading h1,
+.wf-loading h2,
+.wf-loading h3,
+.wf-loading h4,
+.wf-loading h5,
+.wf-loading h6 {
+    font-family: $custom-title-font;
+    opacity: 0;
+}
+
+.wf-active h1,
+.wf-active h2,
+.wf-active h3,
+.wf-active h4,
+.wf-active h5,
+.wf-active h6 {
+    font-family: $custom-title-font;
+    opacity: 1;
 }

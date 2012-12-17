@@ -335,9 +335,30 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000321}}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Fjalla One", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000332}}
+.wf-loading h1,
+.wf-loading h2,
+.wf-loading h3,
+.wf-loading h4,
+.wf-loading h5,
+.wf-loading h6 {
+  font-family: "Fjalla One", sans-serif;
+  opacity: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000342}}
+.wf-active h1,
+.wf-active h2,
+.wf-active h3,
+.wf-active h4,
+.wf-active h5,
+.wf-active h6 {
+  font-family: "Fjalla One", sans-serif;
+  opacity: 1;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/oldie\.scss}line{font-family:\0000374}}

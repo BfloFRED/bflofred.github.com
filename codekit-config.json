@@ -26,15 +26,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/apple-touch-icon-144x144-precomposed.png" : {
+    "\/img\/nextplex-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed.png",
+      "inputAbbreviatedPath" : "\/img\/nextplex-logo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed.png",
-      "initialSize" : 1795,
+      "outputAbbreviatedPath" : "\/img\/nextplex-logo.png",
+      "initialSize" : 326894,
       "fileType" : 8192
     },
     "\/scss\/oldie.scss" : {
@@ -90,15 +90,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/nextplex-logo.png" : {
+    "\/apple-touch-icon-144x144-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/nextplex-logo.png",
+      "inputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/nextplex-logo.png",
-      "initialSize" : 326894,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-144x144-precomposed.png",
+      "initialSize" : 1795,
       "fileType" : 8192
     },
     "\/lib\/IcoMoon\/bflocons17912\/lte-ie7.js" : {
@@ -275,17 +275,6 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/minified\/jquery-1.8.3.min-min.js",
       "fileType" : 64
     },
-    "\/js\/minified\/main-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/minified\/main-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/minified\/minified\/main-min-min.js",
-      "fileType" : 64
-    },
     "\/lib\/gallery\/Buffalo_Bull_Grazing_George_Catlin_1845.jpeg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -297,15 +286,6 @@
       "initialSize" : 54996,
       "fileType" : 4096
     },
-    "\/css\/oldie.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/oldie.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -314,6 +294,26 @@
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/js\/minified\/main-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/minified\/main-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/minified\/minified\/main-min-min.js",
+      "fileType" : 64
+    },
+    "\/css\/oldie.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/oldie.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/apple-touch-icon.png" : {
       "ignoreWasSetByUser" : 0,

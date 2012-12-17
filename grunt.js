@@ -23,16 +23,6 @@ module.exports = function(grunt) {
             // grunt qunit will test all .html
             all: ['*.html']
         },
-        /*server: {
-            port: 8000,
-            base: '.'
-        }*/
-        /*concat: {
-            dist: {
-                src: ['', ''],
-                dest: ''
-            }
-        },*/
         min: {
             dist: {
                 src: ['js/plugins.js', 'js/main.js'],
@@ -58,7 +48,13 @@ module.exports = function(grunt) {
                 browser: true
             },
             globals: {
-                jQuery: true
+                jQuery: true,
+                require: true,
+                define: true,
+                requirejs: true,
+                describe: true,
+                expect: true,
+                it: true
             }
         },
         uglify: {}

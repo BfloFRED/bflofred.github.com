@@ -46,14 +46,18 @@
         <!-- Customizing Speed Dial CSS Styles -->
         <link rel=stylesheet href="minimizedstyles.css" media="(view-mode:minimized)">
 
-        <!-- ie7 style sheet -->
-        <!--[if IE 7]><link rel="stylesheet" href="css/ie7.css"><![endif]-->
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fjalla+One">
 
-        <!-- ie8 style sheet -->
-        <!--[if IE 8]><link rel="stylesheet" href="css/ie8.css"><![endif]-->
+        <!-- ie7-8 style sheet -->
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/oldie.css">
+        <![endif]-->
 
         <!-- style sheet -->
-        <!--[if gt IE 8]><!--><link rel="stylesheet" href="css/main.css"><!--<![endif]-->
+        <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/main.css">
+        <!--<![endif]-->
 
         <!-- Modernizr -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -76,6 +80,7 @@
             <h3>Find Us On:</h3>
             <a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me"><img src="img/nextplex-logo.png" alt=""></a>
 
+            <!--[if gt IE 8]><!-->
             <div>
                 <section>
                     <header>
@@ -117,6 +122,7 @@
                 </section>
                 <a href="/IcoMoon/bflocons17912/index.html">BfloFRED IcoMoon Library Reference</a>
             </div>
+            <!--<![endif]-->
 
             <section class="map-section">
                 <!-- Google Map -->

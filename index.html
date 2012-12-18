@@ -82,10 +82,10 @@
                         <a href="#menu" class="menu-link" id="menu-toggle"><span class="fs1" aria-hidden="true" data-icon="&#xe00d;"></span></a>
                         <nav id="menu" class="primary-nav" role="navigation">
                             <ul id="nav-list" class="primary-nav-list">
-                                <li class="primary-nav-link"><a href="#" rel="bookmark">Item1</a></li>
-                                <li class="primary-nav-link"><a href="#" rel="bookmark">Item2</a></li>
-                                <li class="primary-nav-link"><a href="#" rel="bookmark">Item3</a></li>
-                                <li class="primary-nav-link"><a href="#" rel="bookmark">Item4</a></li>
+                                <li class="primary-nav-link"><a href="#" rel="bookmark">CoWork</a></li>
+                                <li class="primary-nav-link"><a href="#discussion" rel="bookmark">Discussion</a></li>
+                                <li class="primary-nav-link"><a href="#location" rel="bookmark">Location</a></li>
+                                <li class="primary-nav-link"><a href="#info" rel="bookmark">Info</a></li>
                             </ul>
                         </nav>
                     </header>
@@ -93,17 +93,42 @@
             </div>
         </div>
 
-        <div class="wrapper">
-            <div class="grid">
-                <section role="main">
-                    <section class="grid-cell hero">
-                        <header>
-                            <h1>We're a group of Passionate Front-end Web Developers and Advocates living in Buffalo, New York</h1>
-                        </header>
-                        <p>Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate #hotdrama topics  all centered around Front&ndash;end Web Development &amp; Design.</p>
+        <div class="stripe">
+            <div class="wrapper">
+                <div class="grid">
+                    <section role="main">
+                        <figure class="hero">
+                            <header>
+                                <h1>We're a group of Passionate Front-end Web Developers and Advocates living in Buffalo, New York</h1>
+                            </header>
+                            <p>Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate #hotdrama topics  all centered around Front&ndash;end Web Development &amp; Design.</p>
+                        </figure>
                     </section>
+                </div>
+            </div>
+        </div>
 
-                    <section class="grid-cell map-section">
+        <div class="stripe">
+            <div class="wrapper">
+                <div class="grid">
+                    <section id="discussion">
+                        <ul class="discussion-content">
+                            <li><img src="img/nextplex-logo.png" class="nextplex-logo" alt=""></li>
+                            <li><h3>You're building the future. Don't do it alone.</h3>
+                                <p>NextPlex provides online tools that foster entrepreneurial tech communities. Join us on Nextplex where we start discussions and talk about meet up agendas. Consider this our home away from home. A warm cozy space to initiate discussion before each meet up.<a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me"><button>Join Us</button></a></p></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="stripe">
+            <div class="wrapper">
+                <div class="grid">
+                    <section id="location" class="map-section">
+                        <header>
+                            <h1>Track Us Down</h1>
+                        </header>
                         <!-- Google Map -->
                         <!-- https://developers.google.com/maps/documentation/javascript/tutorial -->
                         <div class="map">
@@ -111,45 +136,51 @@
                         </div>
                         <!--End Google Map-->
                     </section>
-                </section>
+                </div>
+            </div>
+        </div>
 
-                <footer class="primary-footer" role="contentinfo">
-                    <div id="hall-of-fame">
-                        <h3>BfloFRED Organizer Hall Of Fame</h3>
-                        <ul id="organizers">
-                            <li>Dennis Gaebel &raquo; Sept. 25, 2012 thru Present</li>
-                            <li>Chris Van Patten &raquo; Sept. 25, 2012 thru Dec. 19, 2012</li>
+        <div class="stripe">
+            <div class="wrapper">
+                <div class="grid">
+                    <footer id="info" class="primary-footer" role="contentinfo">
+                        <div id="hall-of-fame">
+                            <h3>BfloFRED Organizer Hall Of Fame</h3>
+                            <ul id="organizers">
+                                <li>Dennis Gaebel &raquo; Sept. 25, 2012 thru Present</li>
+                                <li>Chris Van Patten &raquo; Sept. 25, 2012 thru Dec. 19, 2012</li>
+                            </ul>
+
+                            <h3>BfloFRED Founders:</h3>
+                            <p>Chris Van Patten <span class="fs1" aria-hidden="true" data-icon="&#xe008;"></span> Dennis Gaebel Sept 25, 2012.</p>
+                        </div>
+
+                        <article class="social-widget">
+                            <ul class="social-networks">
+                                <li><a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me">Nextplex Icon</a></li>
+                                <li><a href="https://twitter.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe000;"></span></a></li>
+                                <li><a href="https://github.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe001;"></span></a></li>
+                                <li><a href="https://plus.google.com/u/0/104139815087059308926/posts"><span class="fs1" aria-hidden="true" data-icon="&#xe00b;"></span></a></li>
+                            </ul>
+                        </article>
+
+                        <!-- BfloFRED e-mail address -->
+                        <!-- http://microformats.org -->
+                        <!-- http://www.wbwip.com/wbw/emailencoder.html -->
+                        <ul class="vcard">
+                            <li class="email"><span aria-hidden="true" class="icon-envelope"></span><a href="mailto:&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
+                            <li class="url"><span aria-hidden="true" class="icon-earth"></span><a href="//bflofred.github.com" rel="me bookmark">https://bflofred.github.com</a></li>
+                            <li class="adr">
+                                <address>
+                                    <span class=""><span aria-hidden="true" class="icon-location"></span><a href="//coworkbuffalo.com" rel="external">CoWork</a></span>
+                                    <span class="street-address">225 Delaware Avenue</span>
+                                    <span class="locality">Buffalo</span>
+                                    <span class="region">New York</span>
+                                </address>
+                            </li>
                         </ul>
-
-                        <h3>BfloFRED Founders:</h3>
-                        <p>Chris Van Patten <span class="fs1" aria-hidden="true" data-icon="&#xe008;"></span> Dennis Gaebel Sept 25, 2012.</p>
-                    </div>
-
-                    <article class="social-widget">
-                        <ul class="social-networks">
-                            <li><a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me"><img src="img/nextplex-logo.png" class="nextplex-logo" alt=""></a></li>
-                            <li><a href="https://twitter.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe000;"></span></a></li>
-                            <li><a href="https://github.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe001;"></span></a></li>
-                            <li><a href="https://plus.google.com/u/0/104139815087059308926/posts"><span class="fs1" aria-hidden="true" data-icon="&#xe00b;"></span></a></li>
-                        </ul>
-                    </article>
-
-                    <!-- BfloFRED e-mail address -->
-                    <!-- http://microformats.org -->
-                    <!-- http://www.wbwip.com/wbw/emailencoder.html -->
-                    <ul class="vcard">
-                        <li class="email"><span aria-hidden="true" class="icon-envelope"></span><a href="mailto:&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
-                        <li class="url"><span aria-hidden="true" class="icon-earth"></span><a href="//bflofred.github.com" rel="me bookmark">https://bflofred.github.com</a></li>
-                        <li class="adr">
-                            <address>
-                                <span class=""><span aria-hidden="true" class="icon-location"></span><a href="//coworkbuffalo.com" rel="external">CoWork</a></span>
-                                <span class="street-address">225 Delaware Avenue</span>
-                                <span class="locality">Buffalo</span>
-                                <span class="region">New York</span>
-                            </address>
-                        </li>
-                    </ul>
-                </footer>
+                    </footer>
+                </div>
             </div><!-- /end.grid -->
         </div>
 

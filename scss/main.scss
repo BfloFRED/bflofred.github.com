@@ -189,7 +189,12 @@ video {
 
 .stripe {
     overflow: auto;
-    background: #d5c3ae;
+    &:nth-child(3) {
+        background: darken(#EFEFEF, 5%);
+    }
+    &:nth-child(4) {
+        background: darken(#EFEFEF, 10%);
+    }
 }
 
 
@@ -254,8 +259,8 @@ video {
                 margin-left: fixed($min) / -2 - (em($grid-gutter)/2);
 
                 // Turns Grid on or off
-                @include background(linear-gradient(left, transparent $grid-gutter, transparentize(red, .8) $grid-gutter, transparentize(red, .8) $grid-gutter + $grid-column));
-                @include background-size($grid-gutter + $grid-column);
+                //@include background(linear-gradient(left, transparent $grid-gutter, transparentize(red, .8) $grid-gutter, transparentize(red, .8) $grid-gutter + $grid-column));
+                //@include background-size($grid-gutter + $grid-column);
             }
 
             // sass content block variable
@@ -368,6 +373,13 @@ video {
 
 
 // ==========================================================================
+// $Hero
+// ==========================================================================
+
+//.hero {}
+
+
+// ==========================================================================
 // $IcoMoon
 // ==========================================================================
 
@@ -435,7 +447,7 @@ video {
 
 .map-link {
     @extend %btn;
-    margin: 1em 0;
+    margin: 1.5em 0;
 }
 
 
@@ -447,14 +459,17 @@ video {
     @extend %list-reset;
 }
 
-.nextplex-logo {
-    height: auto;
-    vertical-align: bottom;
-    width: 76px;
-}
-
 .vcard {
     @extend %list-reset;
+}
+
+.discussion-content {
+    padding-left: 0;
+    li {
+        float: left;
+        list-style-type: none;
+        width: 50%;
+    }
 }
 
 

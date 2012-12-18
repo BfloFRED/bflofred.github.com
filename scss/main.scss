@@ -189,11 +189,18 @@ video {
 
 .stripe {
     overflow: auto;
+    position: relative;
     &:nth-child(3) {
         background: darken(#EFEFEF, 5%);
     }
     &:nth-child(4) {
         background: darken(#EFEFEF, 10%);
+    }
+    &:nth-child(5) {
+        background: darken(#EFEFEF, 15%);
+    }
+    &:nth-child(6) {
+        background: darken(#EFEFEF, 20%);
     }
 }
 
@@ -259,8 +266,8 @@ video {
                 margin-left: fixed($min) / -2 - (em($grid-gutter)/2);
 
                 // Turns Grid on or off
-                //@include background(linear-gradient(left, transparent $grid-gutter, transparentize(red, .8) $grid-gutter, transparentize(red, .8) $grid-gutter + $grid-column));
-                //@include background-size($grid-gutter + $grid-column);
+                @include background(linear-gradient(left, transparent $grid-gutter, transparentize(red, .8) $grid-gutter, transparentize(red, .8) $grid-gutter + $grid-column));
+                @include background-size($grid-gutter + $grid-column);
             }
 
             // sass content block variable
@@ -380,31 +387,161 @@ video {
 
 
 // ==========================================================================
-// $IcoMoon
+// $Learn
 // ==========================================================================
 
-[data-icon],
-[class^="icon"] {
-    // http://maxvoltar.com/archive/-webkit-font-smoothing
-    -webkit-font-smoothing: subpixel-antialiased;
-    font-size: 2em;
+.subjects {
+    height: 350px;
+    h1 {
+        margin-bottom: 0;
+    }
+}
+
+#techList {
+    height: 280px;
+    width: 50%;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100%;
+    text-transform: uppercase;
+    color: #666;
+    li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: .80em;
+    }
+}
+
+.html5 {
+    font-weight: 700;
+    letter-spacing: -.05em;
+    color: #333;
+    @include transform(scale(7.5, 7.8) translate(1.18em, .68em));
+}
+
+.javascript {
+    letter-spacing: -.04em;
+    font-weight: 400;
+    @include transform(scale(1.4) rotate(90deg) translate(3.88em, -13.2em));
+}
+
+.accessibility {
+    letter-spacing: -.05em;
+    font-weight: 300;
+    @include transform(scale(1.4, 1.33) rotate(90deg) translate(4.1em, -18.0em));
+}
+
+.responsive {
+    font-weight: 300;
+    letter-spacing: -.03em;
+    word-spacing: .3em;
+    @include transform(scale(2) translate(2.12em, 5.14em));
+}
+
+.usability {
+    font-weight: 400;
+    letter-spacing: -.04em;
+    @include transform(scale(2.85, 3) translate(7.14em, 3.55em));
+}
+
+.ajax {
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    @include transform(scale(2.4, 2.3) rotate(90deg) translate(6em, -5.8em));
+}
+
+.css3 {
+    letter-spacing: .01em;
+    font-weight: 700;
+    color: #333;
+    @include transform(scale(6.8, 6.75) rotate(90deg) translate(1.32em, -4.54em));
+}
+
+.jquery {
+    letter-spacing: 0.045em;
+    font-weight: 700;
+    @include transform(scale(3.88, 3.8) translate(5.42em, 3.72em));
+}
+
+.objectoriented {
+    font-weight: 700;
+    letter-spacing: -.010em;
+    @include transform(scale(1.85, 1.9) translate(1.86em, 6.5em));
+}
+
+.wordpress {
+    font-weight: 300;
+    letter-spacing: -0.05em;
+    @include transform(scale(2.75, 3) translate(1.72em, 4.95em));
+}
+
+.seo {
+    font-weight: 300;
+    letter-spacing: -0.07em;
+    @include transform( scale(3.9, 4) translate(6.05em, .95em) );
+}
+
+.crossbrowser {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    word-spacing: .2em;
+    @include transform( scale(2) translate(2.28em, 8.58em) );
+}
+
+.webstandards {
+    font-weight: 300;
+    letter-spacing: 0em;
+    word-spacing: .1em;
+    @include transform( scale(2) translate(12.7em, 8.6em) );
+}
+
+.jg {
+    color: #333;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    @include transform( scale(3.4) translate(7.03em, 2.15em) );
+}
+
+.skills {
+    color: #333;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    @include transform( scale(1.8) translate(9.95em, 9.55em) );
 }
 
 
 // ==========================================================================
-// $Button Module
+// $Nextplex
 // ==========================================================================
 
-%btn {
-    display: inline-block;
-    padding: 0.5em 1em;
-    background: #a0c1dc;
-    color: #FFF;
-    &:hover,
-    &:focus {
-        color: #fff;
-        background: darken(#a0c1dc, 10%);
-    }
+.join-us {
+    @extend %btn;
+    @include background(linear-gradient(top, #a2d3e9, #7abedf));
+    box-shadow:
+      -1px 0px 1px #6fadcb, 0px 1px 1px #54809d,
+      -2px 1px 1px #6fadcb, -1px 2px 1px #54809d,
+      -3px 2px 1px #6fadcb, -2px 3px 1px #54809d,
+      -4px 3px 1px #6fadcb, -3px 4px 1px #54809d,
+      -5px 4px 1px #6fadcb, -4px 5px 1px #54809d,
+      -6px 5px 1px #6fadcb,
+      -6px 7px  0 rgba(black, 0.05),
+      -5px 8px  0 rgba(black, 0.05),
+      -3px 9px  0 rgba(black, 0.04),
+      -2px 10px 0 rgba(black, 0.04),
+      -1px 11px 0 rgba(black, 0.03),
+       0px 12px 0 rgba(black, 0.03),
+       1px 13px 0 rgba(black, 0.02),
+       2px 14px 0 rgba(black, 0.02),
+       3px 15px 0 rgba(black, 0.01),
+       4px 16px 0 rgba(black, 0.01),
+       5px 17px 0 rgba(black, 0.01),
+       6px 18px 0 rgba(black, 0.01),
+    inset 0 4px 5px -2px rgba(white, 0.5),
+    inset 0 1px 0 0 rgba(black, 0.3);
 }
 
 
@@ -448,6 +585,34 @@ video {
 .map-link {
     @extend %btn;
     margin: 1.5em 0;
+        @include background(linear-gradient(
+       top, #f2d851, #ecc92b
+    ));
+    color: black;
+    text-shadow: -2px 2px 0 rgba(white, 0.3);
+    box-shadow:
+      -1px 0px 1px #d9b826, 0px 1px 1px #b1961d,
+      -2px 1px 1px #d9b826, -1px 2px 1px #b1961d,
+      -3px 2px 1px #d9b826, -2px 3px 1px #b1961d,
+      -4px 3px 1px #d9b826, -3px 4px 1px #b1961d,
+      -5px 4px 1px #d9b826, -4px 5px 1px #b1961d,
+      -6px 5px 1px #d9b826,
+
+      -6px 7px  0 rgba(black, 0.05),
+      -5px 8px  0 rgba(black, 0.05),
+      -3px 9px  0 rgba(black, 0.04),
+      -2px 10px 0 rgba(black, 0.04),
+      -1px 11px 0 rgba(black, 0.03),
+       0px 12px 0 rgba(black, 0.03),
+       1px 13px 0 rgba(black, 0.02),
+       2px 14px 0 rgba(black, 0.02),
+       3px 15px 0 rgba(black, 0.01),
+       4px 16px 0 rgba(black, 0.01),
+       5px 17px 0 rgba(black, 0.01),
+       6px 18px 0 rgba(black, 0.01),
+
+       inset 0 4px 5px -2px rgba(white, 0.5),
+       inset 0 1px 0 0 rgba(black, 0.3);
 }
 
 
@@ -471,6 +636,19 @@ video {
         width: 50%;
     }
 }
+
+
+// ==========================================================================
+// $IcoMoon
+// ==========================================================================
+
+[data-icon],
+[class^="icon"] {
+    // http://maxvoltar.com/archive/-webkit-font-smoothing
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-size: 2em;
+}
+
 
 
 // ==========================================================================

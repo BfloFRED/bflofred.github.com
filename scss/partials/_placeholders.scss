@@ -9,3 +9,24 @@
         display: inline-block;
     }
 }
+
+
+// ==========================================================================
+// $Button Module
+// ==========================================================================
+
+%btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 50px 10px 10px;
+    @include transition(all 0.1s linear);
+    @include transform(translateZ(0));
+    text-decoration: none;
+    text-shadow: -2px 2px 0 rgba(black, 0.2);
+    text-transform: uppercase;
+    color: white;
+    &:active {
+        box-shadow: none;
+        @include transform(translate3d( -6px, 6px, 0));
+    }
+}

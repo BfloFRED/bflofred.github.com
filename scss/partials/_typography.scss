@@ -1,11 +1,4 @@
 // ==========================================================================
-// $Google Web Font
-// ==========================================================================
-
-$custom-title-font: 'Fjalla One', sans-serif;
-
-
-// ==========================================================================
 // $Globals
 // ==========================================================================
 
@@ -21,7 +14,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-weight: 400;
     text-transform: uppercase;
-    // @include transition(.3s opacity ease-in-out);
+    @include transition(.3s opacity ease-in-out);
 }
 
 .wf-loading h1,

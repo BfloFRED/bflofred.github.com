@@ -24,7 +24,7 @@ Github Pages Tutorial &raquo;
 [http://xlson.com/2010/11/09/getting-started-with-github-pages.html](http://xlson.com/2010/11/09/getting-started-with-github-pages.html)
 
 ###BfloFRED Organizer Hall Of Fame:
-In honor to those that kept Fred's fire burining bright for the rest of us. We honor the following organizers...
+In honor to those that kept Fred's fire burning bright for the rest of us. We honor the following organizers...
 
 1. Dennis Gaebel &raquo; Sept. 25, 2012 thru Present
 2. Chris Van Patten &raquo; Sept. 25, 2012 thru Dec. 19, 2012

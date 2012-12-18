@@ -44,6 +44,13 @@
 
 
 // ==========================================================================
+// $Placeholders
+// ==========================================================================
+
+@import "partials/placeholders";
+
+
+// ==========================================================================
 // $Typography
 // ==========================================================================
 
@@ -89,6 +96,7 @@ body {
 }
 
 a {
+    text-decoration: none;
     color: $linkColor;
 }
 
@@ -176,85 +184,99 @@ video {
 
 
 // ==========================================================================
+// $Stripe
+// ==========================================================================
+
+.stripe {
+    overflow: auto;
+    background: #d5c3ae;
+}
+
+
+// ==========================================================================
 // $Grid
 // ==========================================================================
 // Reference
 // Demo: http://codepen.io/lesjames/pen/ClsdE
 // Article: http://24ways.org/2012/redesigning-the-media-query
 
-// Grid based on https://github.com/necolas/griddle by Nicolas Gallagher (@necolas)
-.wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: em($grid-gutter);
-    padding-right: em($grid-gutter);
-}
-
-.grid {
-    display: block;
-    padding: 0;
-    margin: 0 -0.5 * em($grid-gutter);
-    text-align: left;
-    text-rendering: optimizespeed;
-}
-
-// Note - this class uses Compass includes
-.grid-cell {
-    width: 100%;
-    @include inline-block;
-    @include box-sizing(border-box);
-    margin: 0;
-    padding: 0 0.5 * em($grid-gutter);
-    vertical-align: top;
-    text-align: left;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-rendering: auto;
-}
-
-// create mq to fit columns
-@mixin breakpoint($min) {
-    @media (min-width: fixed($min) + em($grid-gutter)) {
-
-        // create a fixed width centered layout
-        .wrapper {
-            width: fixed($min) - em($grid-gutter);
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        // css gradient overlay to help visualize columns
-        // Note - this class uses Compass includes
-        body::after {
-            content: '';
-            position: fixed;
-            top: 0; bottom: 0;
-            pointer-events: none;
-            left: 50%;
-            width: fixed($min) + em($grid-gutter);
-            margin-left: fixed($min) / -2 - (em($grid-gutter)/2);
-            @include background(linear-gradient(left, transparent $grid-gutter, transparentize(red, .8) $grid-gutter, transparentize(red, .8) $grid-gutter + $grid-column));
-            @include background-size($grid-gutter + $grid-column);
-        }
-
-        // sass content block variable
-        @content
+@media screen {
+    // Grid based on Gridddle by Nicolas Gallagher (@necolas)
+    // https://github.com/necolas/griddle
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: em($grid-gutter);
+        padding-right: em($grid-gutter);
     }
-}
+    .grid {
+        display: block;
+        padding: 0;
+        margin: 0 -0.5 * em($grid-gutter);
+        text-align: left;
+        text-rendering: optimizespeed;
+    }
 
-/* create 5 column fixed layout */
-@include breakpoint(5) {}
+    // Note - this class uses Compass includes
+    .grid-cell {
+        width: 100%;
+        @include inline-block;
+        @include box-sizing(border-box);
+        margin: 0;
+        padding: 0 0.5 * em($grid-gutter);
+        vertical-align: top;
+        text-align: left;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-rendering: auto;
+    }
 
-/* create 8 column layout with sidebar */
-@include breakpoint(8) {
-    .main { width: fixed(5); }
-    .sidebar { width: fixed(3); }
-}
+    // create mq to fit columns
+    @mixin breakpoint($min) {
+        @media (min-width: fixed($min) + em($grid-gutter)) {
 
-/* create 12 column layout with sidebar */
-@include breakpoint(12) {
-    .main { width: fixed(8); }
-    .sidebar { width: fixed(4); }
+            // create a fixed width centered layout
+            .wrapper {
+                width: fixed($min) - em($grid-gutter);
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            // css gradient overlay to help visualize columns
+            // Note - this class uses Compass includes
+            .index::after {
+                content: '';
+                position: fixed;
+                top: 0; bottom: 0;
+                pointer-events: none;
+                left: 50%;
+                width: fixed($min) + em($grid-gutter);
+                margin-left: fixed($min) / -2 - (em($grid-gutter)/2);
+
+                // Turns Grid on or off
+                @include background(linear-gradient(left, transparent $grid-gutter, transparentize(red, .8) $grid-gutter, transparentize(red, .8) $grid-gutter + $grid-column));
+                @include background-size($grid-gutter + $grid-column);
+            }
+
+            // sass content block variable
+            @content
+        }
+    }
+
+    /* create 5 column fixed layout */
+    @include breakpoint(5) {}
+
+    /* create 8 column layout with sidebar */
+    @include breakpoint(8) {
+        .main { width: fixed(5); }
+        .sidebar { width: fixed(3); }
+    }
+
+    /* create 12 column layout with sidebar */
+    @include breakpoint(12) {
+        .main { width: fixed(8); }
+        .sidebar { width: fixed(4); }
+    }
 }
 
 
@@ -262,8 +284,86 @@ video {
 // $Primary Header
 // ==========================================================================
 
-.primary-header {
-    //background: rgba(42, 77, 236, 0.42);
+//.primary-header {}
+
+
+// ==========================================================================
+// $Logo
+// ==========================================================================
+
+#logo {
+    @media screen and (max-width: 48.25em) {
+        float: left;
+    }
+}
+
+
+// ==========================================================================
+// $Primary Navigation
+// ==========================================================================
+
+//.primary-nav-list {}
+//.primary-nav-link {}
+
+@media screen {
+    // Toggle Trigger
+    .menu-link {
+        float: right;
+        display: block;
+        padding: 1em;
+        // JS Disabled
+        .no-js & {
+            @media screen and (max-width: 48.25em) {
+                display: none;
+            }
+        }
+        @media screen and (min-width: 48.25em) {
+            display: none;
+        }
+    }
+
+    // Primary Navigation
+    .primary-nav {
+        clear: both;
+        @include transition(all 0.3s ease-out);
+        ul {
+            margin: 0;
+            padding: 0;
+            border-top: 1px solid #808080;
+            @media screen and (min-width: 48.25em) {
+                margin: 0 0 0 -0.25em;
+                border: 0;
+            }
+            li {
+                @media screen and (min-width: 48.25em) {
+                    display: inline-block;
+                    margin: 0 0.25em;
+                }
+                a {
+                    display: block;
+                    padding: 0.8em;
+                    border-bottom: 1px solid #808080;
+                    @media screen and (min-width: 48.25em) {
+                        border: 0;
+                    }
+                }
+            }
+        }
+
+        // JS Enabled
+        .js & {
+            overflow: hidden;
+            max-height: 0;
+            @media screen and (min-width: 48.25em) {
+                max-height: none;
+            }
+        }
+
+        // Active State
+        &.active {
+            max-height: 15em;
+        }
+    }
 }
 
 
@@ -286,7 +386,6 @@ video {
 %btn {
     display: inline-block;
     padding: 0.5em 1em;
-    margin: 1em;
     background: #a0c1dc;
     color: #FFF;
     &:hover,
@@ -336,6 +435,26 @@ video {
 
 .map-link {
     @extend %btn;
+    margin: 1em 0;
+}
+
+
+// ==========================================================================
+// $Footer
+// ==========================================================================
+
+.social-networks {
+    @extend %list-reset;
+}
+
+.nextplex-logo {
+    height: auto;
+    vertical-align: bottom;
+    width: 76px;
+}
+
+.vcard {
+    @extend %list-reset;
 }
 
 

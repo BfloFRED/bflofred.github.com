@@ -328,18 +328,32 @@ table {
 
 /* convert pixels to ems - defaults to 16px base */
 /* find width of columns */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_placeholders\.scss}line{font-family:\000035}}
+.social-networks, .vcard {
+  list-style-type: none;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_placeholders\.scss}line{font-family:\000038}}
+.social-networks li, .vcard li {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\000035}}
 body {
   font: normal 100%/1.5 HelveticaNeue, Helvetica, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000314}}
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   text-transform: uppercase;
+  -webkit-transition: 0.3s opacity ease-in-out;
+  -moz-transition: 0.3s opacity ease-in-out;
+  -o-transition: 0.3s opacity ease-in-out;
+  transition: 0.3s opacity ease-in-out;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000325}}
 .wf-loading h1,
 .wf-loading h2,
 .wf-loading h3,
@@ -350,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000335}}
 .wf-active h1,
 .wf-active h2,
 .wf-active h3,
@@ -465,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "\e00d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000389}}
 html,
 button,
 input,
@@ -474,51 +488,52 @@ textarea {
   color: #222;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000393}}
 body {
   font-size: 1em;
   line-height: 1.4;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000398}}
 a {
+  text-decoration: none;
   color: #0000ee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003103}}
 a:visited {
   color: #551a8b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003107}}
 a:hover {
   color: #0066ee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003111}}
 a:focus {
   outline: thin dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003118}}
 a:hover,
 a:active {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003125}}
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003130}}
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003136}}
 hr {
   display: block;
   height: 1px;
@@ -528,36 +543,36 @@ hr {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003146}}
 img {
   vertical-align: middle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003151}}
 fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003158}}
 textarea {
   resize: vertical;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003167}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003172}}
 body {
   font: normal 100%/1.5 Helvetica, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003180}}
 img,
 iframe,
 object,
@@ -567,55 +582,65 @@ video {
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003186}}
-.wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.25em;
-  padding-right: 1.25em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003190}}
+.stripe {
+  overflow: auto;
+  background: #d5c3ae;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003193}}
-.grid {
-  display: block;
-  padding: 0;
-  margin: 0 -0.625em;
-  text-align: left;
-  text-rendering: optimizespeed;
-}
+@media screen {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003206}}
+  .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003202}}
-.grid-cell {
-  width: 100%;
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0 0.625em;
-  vertical-align: top;
-  text-align: left;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-rendering: auto;
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003212}}
+  .grid {
+    display: block;
+    padding: 0;
+    margin: 0 -0.625em;
+    text-align: left;
+    text-rendering: optimizespeed;
+  }
 
-/* create 5 column fixed layout */
-@media (min-width: 26.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003221}}
+  .grid-cell {
+    width: 100%;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 0.625em;
+    vertical-align: top;
+    text-align: left;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-rendering: auto;
+  }
+
+  /* create 5 column fixed layout */
+  /* create 8 column layout with sidebar */
+  /* create 12 column layout with sidebar */
+}
+@media screen and (min-width: 26.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003239}}
   .wrapper {
     width: 23.75em;
     margin-left: auto;
     margin-right: auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003228}}
-  body::after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003247}}
+  .index::after {
     content: '';
     position: fixed;
     top: 0;
@@ -635,17 +660,16 @@ video {
     background-size: 80px;
   }
 }
-/* create 8 column layout with sidebar */
-@media (min-width: 41.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003220}}
+@media screen and (min-width: 41.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003239}}
   .wrapper {
     width: 38.75em;
     margin-left: auto;
     margin-right: auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003228}}
-  body::after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003247}}
+  .index::after {
     content: '';
     position: fixed;
     top: 0;
@@ -665,27 +689,26 @@ video {
     background-size: 80px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003271}}
   .main {
     width: 25em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003272}}
   .sidebar {
     width: 15em;
   }
 }
-/* create 12 column layout with sidebar */
-@media (min-width: 61.25em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003220}}
+@media screen and (min-width: 61.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003239}}
   .wrapper {
     width: 58.75em;
     margin-left: auto;
     margin-right: auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003228}}
-  body::after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003247}}
+  .index::after {
     content: '';
     position: fixed;
     top: 0;
@@ -705,38 +728,120 @@ video {
     background-size: 80px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003277}}
   .main {
     width: 40em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003278}}
   .sidebar {
     width: 20em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003275}}
+@media screen and (max-width: 48.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003294}}
+  #logo {
+    float: left;
+  }
+}
+
+@media screen {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003310}}
+  .menu-link {
+    float: right;
+    display: block;
+    padding: 1em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003326}}
+  .primary-nav {
+    clear: both;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003329}}
+  .primary-nav ul {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #808080;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003342}}
+  .primary-nav ul li a {
+    display: block;
+    padding: 0.8em;
+    border-bottom: 1px solid #808080;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003354}}
+  .js .primary-nav {
+    overflow: hidden;
+    max-height: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003363}}
+  .primary-nav.active {
+    max-height: 15em;
+  }
+}
+@media screen and (max-width: 48.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003315}}
+  .no-js .menu-link {
+    display: none;
+  }
+}
+@media screen and (min-width: 48.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003310}}
+  .menu-link {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 48.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003329}}
+  .primary-nav ul {
+    margin: 0 0 0 -0.25em;
+    border: 0;
+  }
+}
+@media screen and (min-width: 48.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003337}}
+  .primary-nav ul li {
+    display: inline-block;
+    margin: 0 0.25em;
+  }
+}
+@media screen and (min-width: 48.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003342}}
+  .primary-nav ul li a {
+    border: 0;
+  }
+}
+@media screen and (min-width: 48.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003354}}
+  .js .primary-nav {
+    max-height: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003375}}
 [data-icon],
 [class^="icon"] {
   -webkit-font-smoothing: subpixel-antialiased;
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003386}}
 .map-link {
   display: inline-block;
   padding: 0.5em 1em;
-  margin: 1em;
   background: #a0c1dc;
   color: #FFF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003392}}
 .map-link:hover, .map-link:focus {
   color: #fff;
   background: #7ba9ce;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003404}}
 .map-container {
   width: 100%;
   margin: 0 auto;
@@ -746,13 +851,13 @@ video {
   display: none;
 }
 @media all and (min-width: 34.375em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003404}}
   .map-container {
     display: block;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003417}}
 .google-map {
   width: 100%;
   height: 100%;
@@ -763,15 +868,27 @@ video {
   bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003428}}
 .static-map-img {
   display: block;
 }
 @media all and (min-width: 34.375em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003428}}
   .static-map-img {
     display: none;
   }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003436}}
+.map-link {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003450}}
+.nextplex-logo {
+  height: auto;
+  vertical-align: bottom;
+  width: 76px;
 }
 
 @-ms-viewport {
@@ -779,7 +896,7 @@ video {
 }
 
 @media print {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003567}}
   * {
     background: transparent !important;
     color: #000 !important;
@@ -787,48 +904,48 @@ video {
     text-shadow: none !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003575}}
   a,
   a:visited {
     text-decoration: underline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003579}}
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003464}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003583}}
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003591}}
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003596}}
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003601}}
   thead {
     display: table-header-group;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003606}}
   tr,
   img {
     page-break-inside: avoid;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003610}}
   img {
     max-width: 100% !important;
   }
@@ -837,7 +954,7 @@ video {
     margin: 0.5cm;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003620}}
   p,
   h2,
   h3 {
@@ -845,7 +962,7 @@ video {
     widows: 3;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/main\.scss}line{font-family:\00003626}}
   h2,
   h3 {
     page-break-after: avoid;

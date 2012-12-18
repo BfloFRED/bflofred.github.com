@@ -55,9 +55,9 @@
         <!-- Opera Speed Dial and Bookmark Enhancements -->
         <!-- http://dev.opera.com/articles/view/opera-speed-dial-enhancements -->
         <!-- Opera Bookmark Icon = 128 x 128 .png/.gif/.jpg -->
-        <link rel="icon" type="image/png" href="http://path/to/128x128image.png">
+        <!-- <link rel="icon" type="image/png" href="http://path/to/128x128image.png"> -->
         <!-- Opera Speed Dial Icon = 512 x 512 .png/.gif/.jpg -->
-        <link rel="icon" type="image/png" href="http://path/to/200x200image.png">
+        <!-- <link rel="icon" type="image/png" href="http://path/to/200x200image.png"> -->
         <!-- Customizing Speed Dial CSS Styles -->
         <!-- <link rel=stylesheet href="minimizedstyles.css" media="(view-mode:minimized)"> -->
 
@@ -65,115 +65,99 @@
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fjalla+One">
 
         <!-- ie7-8 style sheet -->
-        <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/oldie.css">
-        <![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/oldie.css"><![endif]-->
 
         <!-- style sheet -->
-        <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/main.css">
-        <!--<![endif]-->
+        <!--[if gt IE 8]><!--><link rel="stylesheet" href="css/main.css?0.0.0"><!--<![endif]-->
 
         <!-- Modernizr -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
-        <div class="wrapper">
-        <div class="grid">
-            <header class="primary-header" role="banner">
-                <h1 class="brand-name"><a href="/" rel="me bookmark">BfloFRED</a></h1>
-                <nav class="primary-nav" role="navigation">
-                    <ul class="primary-nav-list">
-                        <li class="primary-nav-link"><a href="#" rel="bookmark">Item1</a></li>
-                        <li class="primary-nav-link"><a href="#" rel="bookmark">Item2</a></li>
-                        <li class="primary-nav-link"><a href="#" rel="bookmark">Item3</a></li>
-                        <li class="primary-nav-link"><a href="#" rel="bookmark">Item4</a></li>
-                    </ul>
-                </nav>
-            </header>
-
-            <h3>Find Us On:</h3>
-            <a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me"><img src="img/nextplex-logo.png" alt=""></a>
-
-            <!--[if gt IE 8]><!-->
-            <div>
-                <section>
-                    <header>
-                        <h1><code>data&ndash;icon="&#xxxxx"</code></h1>
+    <body class="index">
+        <div class="stripe">
+            <div class="wrapper">
+                <div class="grid">
+                    <header class="primary-header" role="banner">
+                        <h1 id="logo"><a href="/" rel="me bookmark">BfloFRED</a></h1>
+                        <a href="#menu" class="menu-link" id="menu-toggle"><span class="fs1" aria-hidden="true" data-icon="&#xe00d;"></span></a>
+                        <nav id="menu" class="primary-nav" role="navigation">
+                            <ul id="nav-list" class="primary-nav-list">
+                                <li class="primary-nav-link"><a href="#" rel="bookmark">Item1</a></li>
+                                <li class="primary-nav-link"><a href="#" rel="bookmark">Item2</a></li>
+                                <li class="primary-nav-link"><a href="#" rel="bookmark">Item3</a></li>
+                                <li class="primary-nav-link"><a href="#" rel="bookmark">Item4</a></li>
+                            </ul>
+                        </nav>
                     </header>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe000;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe00b;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe001;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe002;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe003;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe004;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe005;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe006;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe007;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe008;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe009;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe00a;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe00c;"></span>
-                    <span class="fs1" aria-hidden="true" data-icon="&#xe00d;"></span>
-                </section>
-                <section>
-                    <header>
-                        <h1><code>class="icon-xxxx"</code></h1>
-                    </header>
-                    <span aria-hidden="true" class="icon-twitter"></span>
-                    <span aria-hidden="true" class="icon-google-plus"></span>
-                    <span aria-hidden="true" class="icon-github"></span>
-                    <span aria-hidden="true" class="icon-github-2"></span>
-                    <span aria-hidden="true" class="icon-chrome"></span>
-                    <span aria-hidden="true" class="icon-firefox"></span>
-                    <span aria-hidden="true" class="icon-IE"></span>
-                    <span aria-hidden="true" class="icon-opera"></span>
-                    <span aria-hidden="true" class="icon-safari"></span>
-                    <span aria-hidden="true" class="icon-ampersand"></span>
-                    <span aria-hidden="true" class="icon-earth"></span>
-                    <span aria-hidden="true" class="icon-location"></span>
-                    <span aria-hidden="true" class="icon-envelope"></span>
-                    <span aria-hidden="true" class="icon-list"></span>
-                </section>
-                <a href="/IcoMoon/bflocons17912/index.html">BfloFRED IcoMoon Library Reference</a>
-            </div>
-            <!--<![endif]-->
-
-            <section class="map-section">
-                <!-- Google Map -->
-                <!-- https://developers.google.com/maps/documentation/javascript/tutorial -->
-                <div class="map">
-                  <a href="http://goo.gl/maps/5MpRn" class="map-link">View Map</a>
                 </div>
-                <!--End Google Map-->
-            </section>
+            </div>
+        </div>
 
-            <footer class="primary-footer" role="contentinfo">
-                <!-- BfloFRED e-mail address -->
-                <!-- http://microformats.org -->
-                <!-- http://www.wbwip.com/wbw/emailencoder.html -->
-                <ul class="vcard">
-                    <li class="fn">BfloFRED</li>
-                    <li class="email"><span aria-hidden="true" class="icon-envelope"></span><a href="mailto:&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
-                    <li class="url"><span aria-hidden="true" class="icon-earth"></span><a href="//bflofred.github.com" rel="me bookmark">https://bflofred.github.com</a></li>
-                    <li class="adr">
-                        <address>
-                            <span class=""><span aria-hidden="true" class="icon-location"></span><a href="//coworkbuffalo.com" rel="external">CoWork</a></span>
-                            <span class="street-address">225 Delaware Avenue</span>
-                            <span class="locality">Buffalo</span>
-                            <span class="region">New York</span>
-                        </address>
-                    </li>
-                </ul>
-            </footer>
-        </div><!-- /end.grid -->
-    </div>
+        <div class="wrapper">
+            <div class="grid">
+                <section role="main">
+                    <section class="grid-cell hero">
+                        <header>
+                            <h1>We're a group of Passionate Front-end Web Developers and Advocates living in Buffalo, New York</h1>
+                        </header>
+                        <p>Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate #hotdrama topics  all centered around Front&ndash;end Web Development &amp; Design.</p>
+                    </section>
+
+                    <section class="grid-cell map-section">
+                        <!-- Google Map -->
+                        <!-- https://developers.google.com/maps/documentation/javascript/tutorial -->
+                        <div class="map">
+                            <a href="http://goo.gl/maps/5MpRn" class="map-link">View Map</a>
+                        </div>
+                        <!--End Google Map-->
+                    </section>
+                </section>
+
+                <footer class="primary-footer" role="contentinfo">
+                    <div id="hall-of-fame">
+                        <h3>BfloFRED Organizer Hall Of Fame</h3>
+                        <ul id="organizers">
+                            <li>Dennis Gaebel &raquo; Sept. 25, 2012 thru Present</li>
+                            <li>Chris Van Patten &raquo; Sept. 25, 2012 thru Dec. 19, 2012</li>
+                        </ul>
+
+                        <h3>BfloFRED Founders:</h3>
+                        <p>Chris Van Patten <span class="fs1" aria-hidden="true" data-icon="&#xe008;"></span> Dennis Gaebel Sept 25, 2012.</p>
+                    </div>
+
+                    <article class="social-widget">
+                        <ul class="social-networks">
+                            <li><a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me"><img src="img/nextplex-logo.png" class="nextplex-logo" alt=""></a></li>
+                            <li><a href="https://twitter.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe000;"></span></a></li>
+                            <li><a href="https://github.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe001;"></span></a></li>
+                            <li><a href="https://plus.google.com/u/0/104139815087059308926/posts"><span class="fs1" aria-hidden="true" data-icon="&#xe00b;"></span></a></li>
+                        </ul>
+                    </article>
+
+                    <!-- BfloFRED e-mail address -->
+                    <!-- http://microformats.org -->
+                    <!-- http://www.wbwip.com/wbw/emailencoder.html -->
+                    <ul class="vcard">
+                        <li class="email"><span aria-hidden="true" class="icon-envelope"></span><a href="mailto:&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
+                        <li class="url"><span aria-hidden="true" class="icon-earth"></span><a href="//bflofred.github.com" rel="me bookmark">https://bflofred.github.com</a></li>
+                        <li class="adr">
+                            <address>
+                                <span class=""><span aria-hidden="true" class="icon-location"></span><a href="//coworkbuffalo.com" rel="external">CoWork</a></span>
+                                <span class="street-address">225 Delaware Avenue</span>
+                                <span class="locality">Buffalo</span>
+                                <span class="region">New York</span>
+                            </address>
+                        </li>
+                    </ul>
+                </footer>
+            </div><!-- /end.grid -->
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
 
         <!-- needs to be prepended to script before compiling -->
-        <script src="js/minified/main-min.js"></script>
+        <script src="js/minified/main-min.js?0.0.0"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

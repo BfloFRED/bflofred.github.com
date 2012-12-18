@@ -1,11 +1,6 @@
 #BfloFRED - Website Rundown
 =========
 
-##Laundry List
-1. Nextplex logo For Social Network
-2. Logo as .svg, .svgz and .png
-3. Twitter and Github Icon
-
 ##Social Networks
 1. Nextplex - [http://nextplex.com/buffalo-ny/resources/groups/118](http://nextplex.com/buffalo-ny/resources/groups/bflofred)
 2. Twitter - [@BfloFRED](https://twitter.com/BfloFRED)
@@ -15,21 +10,18 @@
 6. Google+ Community [https://plus.google.com/u/0/communities/110622691529120317012](https://plus.google.com/u/0/communities/110622691529120317012)
 
 ##Assets
-1. Logo - Tommy Creenan
-2. Domain Name - Dennis Gaebel
-	1. [buffalofred.com](buffalofred.com)?
-	2. [bflofred.com](bflofred.com)?
+1. BfloFRED Logo - Tommy Creenan
+2. BfloFRED Domain Name - [bflofred.com](bflofred.com)
 3. Nextplex logo - Lail Brown Delivered!
 "The colors can be changed if you need to, there isn't a defined brand color for the logo, and we've used a few."
+4. BfloFRED Custom Icons - Ben Dunkle
 
 ##The Build
 1. HTML5 Boilerplate
-2. Jekkyl? Statamic?
-3. Domain Name? http://buffalofred.com?
-4. Compass & Sass
-5. Susy Grids?
-6. Font Icons via Fontcustom
-7. IE Support &raquo; gte IE8
+2. Compass & Sass
+3. Grunt andd Codekit
+4. Font Icons via Fontcustom
+5. IE Support &raquo; gte IE7
 
 ##Code Style Guide
 1. Classes and ID's use a hyphen to split words (i.e. ``my-class`` or ``nav-link``)
@@ -50,13 +42,3 @@ h3 {
   property: value;
   property: value; &lt;!-- end with semi-colon for last property/value pair --&gt;
 }</code></pre>
-
-
-##BfloFRED Organizer Hall Of Fame:
-In honor to those that kept Fred's fire burining bright for the rest of us. We honor the following organizers...
-
-1. Chris Van Patten &raquo; Sept. 2012 thru Dec. 2012
-2. Dennis Gaebel &raquo; Sept. 2012 - Present
-
-###BfloFRED Founders:
-Chris Van Patten &amp; Dennis Gaebel Sept 19, 2012.

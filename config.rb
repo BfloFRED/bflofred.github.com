@@ -51,6 +51,9 @@ if environment != :production
     sass_options = {:debug_info => true}
 end
 
+# Add support for repeating linear gradients
+# https://github.com/chriseppstein/compass/issues/401
+Compass::BrowserSupport.add_support("repeating-linear-gradient", "webkit", "moz", "ms")
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:

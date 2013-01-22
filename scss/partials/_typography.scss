@@ -14,7 +14,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-weight: 400;
     text-transform: uppercase;
-    @include transition(.3s opacity ease-in-out);
+    @include transition(.0123s opacity ease-in-out);
 }
 
 .wf-loading h1,
@@ -24,6 +24,9 @@ h1,h2,h3,h4,h5,h6 {
 .wf-loading h5,
 .wf-loading h6 {
     font-family: $custom-title-font;
+    //ie fallback
+    visibility: hidden;
+    //non ie
     opacity: 0;
 }
 
@@ -34,5 +37,8 @@ h1,h2,h3,h4,h5,h6 {
 .wf-active h5,
 .wf-active h6 {
     font-family: $custom-title-font;
+    //ie fallback
+    visibility: visible;
+    //non ie
     opacity: 1;
 }

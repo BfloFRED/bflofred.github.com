@@ -13,7 +13,6 @@
                 var wf = document.createElement('script');
                 wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
                     '://ajax.googleapis.com/ajax/libs/webfont/1.1.0/webfont.js';
-                wf.type = 'text/javascript';
                 wf.async = 'true';
                 var s = document.getElementsByTagName('script')[0];
                 s.parentNode.insertBefore(wf, s);
@@ -32,7 +31,7 @@
 
         <!-- viewport -->
         <!-- The keyword “device-width” is intended to set the width of the Viewport to the width of the device that is viewing the page -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
 
         <!-- Tells the browser if the page has been built to be viewable on a small screen -->
         <!-- http://blogs.msdn.com/b/iemobile/archive/2010/11/22/the-ie-mobile-viewport-on-windows-phone-7.aspx -->
@@ -68,17 +67,17 @@
         <!--[if lte IE 8]><link rel="stylesheet" href="css/oldie.css"><![endif]-->
 
         <!-- style sheet -->
-        <!--[if gt IE 8]><!--><link rel="stylesheet" href="css/main.css?0.0.1"><!--<![endif]-->
-        <link rel="stylesheet" href="css/adaptive.css" type="text/css" media="screen" />
+        <!--[if gt IE 8]><!--><link rel="stylesheet" href="css/main.css?0.0.2"><!--<![endif]-->
 
         <!-- Modernizr -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="index">
         <div class="stripe">
-            <header class="primary-header" role="banner">
+            <header class="primary-header wrap" role="banner">
                 <h1 id="logo"><a href="/" rel="me bookmark">BfloFRED</a></h1>
                 <a href="#menu" class="menu-link" id="menu-toggle"><span class="fs1" aria-hidden="true" data-icon="&#xe00c;"></span></a>
+
                 <nav id="menu" class="primary-nav" role="navigation">
                     <ul id="nav-list" class="primary-nav-list">
                         <li class="primary-nav-link"><a href="#" rel="bookmark">CoWork</a></li>
@@ -91,18 +90,18 @@
         </div>
 
         <div class="stripe">
-            <section role="main">
+            <section class="wrap" role="main">
                 <figure class="hero">
                     <header>
                         <h1>We're a group of Passionate Front-end Web Developers and Advocates living in sunny Buffalo, New York</h1>
                     </header>
-                    <p>Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate #hotdrama topics  all centered around Front&ndash;end Web Development &amp; Design.</p>
+                    <p>Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate all centered around Front&ndash;end Web Development &amp; Design.</p>
                 </figure>
             </section>
         </div>
 
         <div class="stripe">
-            <section class="subjects">
+            <section class="subjects wrap">
                 <header>
                     <h1>Learn The Cool Stuff</h1>
                 </header>
@@ -127,7 +126,7 @@
         </div>
 
         <div class="stripe">
-            <section id="discussion">
+            <section class="wrap" id="discussion">
                 <ul class="discussion-content">
                     <li><img src="img/nextplex-logo.png" class="nextplex-logo" alt=""></li>
                     <li><h3>You're building the future. Don't do it alone.</h3>
@@ -138,7 +137,7 @@
         </div>
 
         <div class="stripe">
-            <section id="location" class="map-section">
+            <section class="map-section wrap" id="location">
                 <header>
                     <h1>Track Us Down</h1>
                 </header>
@@ -152,24 +151,13 @@
         </div>
 
         <div class="stripe">
-            <footer id="info" class="primary-footer" role="contentinfo">
-                <div id="hall-of-fame">
-                    <h3>BfloFRED Organizer Hall Of Fame</h3>
-                    <ul id="organizers">
-                        <li>Dennis Gaebel &raquo; Sept. 25, 2012 thru Present</li>
-                        <li>Chris Van Patten &raquo; Sept. 25, 2012 thru Dec. 19, 2012</li>
-                    </ul>
-
-                    <h3>BfloFRED Founders:</h3>
-                    <p>Chris Van Patten <span class="fs1" aria-hidden="true" data-icon="&#xe008;"></span> Dennis Gaebel Sept 25, 2012.</p>
-                </div>
-
+            <footer id="info" class="primary-footer wrap" role="contentinfo">
                 <article class="social-widget">
                     <ul class="social-networks">
                         <li><a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me"><span class="fs1" aria-hidden="true" data-icon="&#xe00d;"></span></a></li>
                         <li><a href="https://twitter.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe000;"></span></a></li>
                         <li><a href="https://github.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe001;"></span></a></li>
-                        <li><a href="https://plus.google.com/u/0/104139815087059308926/posts"><span class="fs1" aria-hidden="true" data-icon="&#xe00b;"></span></a></li>
+                        <li><a href="https://plus.google.com/u/0/104139815087059308926/posts"><span class="fs1" aria-hidden="true" data-icon="&#xe00f;"></span></a></li>
                     </ul>
                 </article>
 
@@ -188,11 +176,12 @@
                         </address>
                     </li>
                 </ul>
+                <small>BfloFRED Founders: Chris Van Patten and Dennis Gaebel Jr. &bull; Sept 25, 2012.</small>
             </footer>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
 
         <!-- needs to be prepended to script before compiling -->
         <script src="js/minified/main-min.js?0.0.0"></script>

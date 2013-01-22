@@ -70,12 +70,12 @@
 // ==========================================================================
 
 // Anchors
-$linkColor: #00e;
-$linkVisitedColor: #551a8b;
-$linkHoverColor: #06e;
+$linkColor: gray;
+$linkVisitedColor: $linkColor;
+$linkHoverColor: lighten($linkColor, 10%);
 $focusStyle: thin dotted;
 $activeStyle: 0;
-$selectionColor: #b3d4fc;
+$selectionColor: #503726;
 
 
 // ==========================================================================
@@ -184,6 +184,17 @@ video {
 
 
 // ==========================================================================
+// $Wrap Container
+// ==========================================================================
+
+.wrap {
+    margin: auto auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+
+// ==========================================================================
 // $Stripe
 // ==========================================================================
 
@@ -223,6 +234,14 @@ video {
 // ==========================================================================
 
 #logo {
+    a {
+        display: inline-block;
+        height: 210px;
+        width: 200px;
+        text-indent: -9999em;
+        background: image-url("logo.png") top left no-repeat;
+        background-size: 200px;
+    }
     @media screen and (max-width: 48.25em) {
         float: left;
     }
@@ -302,7 +321,11 @@ video {
 // $Hero
 // ==========================================================================
 
-//.hero {}
+.hero {
+    @media screen and (min-width: 42em) {
+        max-width: 70%;
+    }
+}
 
 
 // ==========================================================================

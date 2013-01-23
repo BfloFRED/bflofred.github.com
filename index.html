@@ -4,6 +4,14 @@
 <!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
+
+        <!-- DNS prefetching -->
+        <!-- http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers -->
+        <!-- https://github.com/csswizardry/csswizardry.github.com/blob/b52472cea6a0f087944afda750839d7c96fab7d3/_layouts/default.html#L7-L15 -->
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="dns-prefetch" href="//www.google-analytics.com">
+        <link rel="dns-prefetch" href="//maps.googleapis.com">
+
         <!-- https://developers.google.com/webfonts/docs/webfont_loader -->
         <script>
             WebFontConfig = {
@@ -61,16 +69,14 @@
         <!-- <link rel=stylesheet href="minimizedstyles.css" media="(view-mode:minimized)"> -->
 
         <!-- Google Fonts -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fjalla+One">
-
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fjalla+One">
         <!-- ie7-8 style sheet -->
         <!--[if lte IE 8]><link rel="stylesheet" href="css/oldie.css"><![endif]-->
-
         <!-- style sheet -->
-        <!--[if gt IE 8]><!--><link rel="stylesheet" href="css/main.css?0.0.2"><!--<![endif]-->
+        <!--[if gt IE 8]><!--><link rel="stylesheet" href="/css/main.css?0.0.3"><!--<![endif]-->
 
         <!-- Modernizr -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="index">
         <div class="stripe">
@@ -90,8 +96,8 @@
         </div>
 
         <div class="stripe">
-            <section class="wrap" role="main">
-                <figure class="hero">
+            <section>
+                <figure class="hero wrap">
                     <header>
                         <h1>We're a group of Passionate Front-end Web Developers and Advocates living in sunny Buffalo, New York</h1>
                     </header>
@@ -100,57 +106,61 @@
             </section>
         </div>
 
-        <div class="stripe">
-            <section class="subjects wrap">
-                <header>
-                    <h1>Learn The Cool Stuff</h1>
-                </header>
-                <ul id="techList">
-                    <li class="html5">html5</li>
-                    <li class="css3">css3</li>
-                    <li class="javascript">javascript</li>
-                    <li class="jquery">jquery</li>
-                    <li class="wordpress">wordpress</li>
-                    <li class="webstandards">web standards</li>
-                    <li class="accessibility">accessibility</li>
-                    <li class="usability">usability</li>
-                    <li class="seo">seo</li>
-                    <li class="responsive">responsive layout</li>
-                    <li class="ajax">ajax</li>
-                    <li class="objectoriented">object oriented</li>
-                    <li class="crossbrowser">cross browser</li>
-                    <li class="jg">j.g.</li>
-                    <li class="skills">skills</li>
-                </ul>
-            </section>
-        </div>
+        <section id="main-content" role="main">
+            <div class="stripe">
+                <section class="subjects wrap">
+                    <header>
+                        <h1>Learn The Cool Stuff</h1>
+                    </header>
+                    <ul id="techList">
+                        <li class="html5">html5</li>
+                        <li class="css3">css3</li>
+                        <li class="javascript">javascript</li>
+                        <li class="jquery">jquery</li>
+                        <li class="wordpress">wordpress</li>
+                        <li class="webstandards">web standards</li>
+                        <li class="accessibility">accessibility</li>
+                        <li class="usability">usability</li>
+                        <li class="seo">seo</li>
+                        <li class="responsive">responsive layout</li>
+                        <li class="ajax">ajax</li>
+                        <li class="objectoriented">object oriented</li>
+                        <li class="crossbrowser">cross browser</li>
+                        <li class="jg">j.g.</li>
+                        <li class="skills">skills</li>
+                    </ul>
+                </section>
+            </div>
 
-        <div class="stripe">
-            <section class="wrap" id="discussion">
-                <ul class="discussion-content">
-                    <li><img src="img/nextplex-logo.png" class="nextplex-logo" alt=""></li>
-                    <li><h3>You're building the future. Don't do it alone.</h3>
-                        <p>NextPlex provides online tools that foster entrepreneurial tech communities. Join us on Nextplex where we start discussions and talk about meet up agendas. Consider this our home away from home. A warm cozy space to initiate discussion before each meet up.<a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me">
-                        <div><button class="join-us">Join Us</button></a></div></p></li>
-                </ul>
-            </section>
-        </div>
+            <div class="stripe">
+                <section class="wrap" id="discussion">
+                    <ul class="discussion-content">
+                        <li><img src="img/nextplex-logo.png" class="nextplex-logo" alt=""></li>
+                        <li><h3>You're building the future. Don't do it alone.</h3>
+                            <p>NextPlex provides online tools that foster entrepreneurial tech communities. Join us on Nextplex where we start discussions and talk about meet up agendas. Consider this our home away from home. A warm cozy space to initiate discussion before each meet up.<a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" class="join-us" rel="me">Join Us</a></p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
 
-        <div class="stripe">
-            <section class="map-section wrap" id="location">
-                <header>
-                    <h1>Track Us Down</h1>
-                </header>
-                <!-- Google Map -->
-                <!-- https://developers.google.com/maps/documentation/javascript/tutorial -->
-                <div class="map">
-                    <a href="http://goo.gl/maps/5MpRn" class="btn blue map-link">View Map</a>
-                </div>
-                <!--End Google Map-->
-            </section>
-        </div>
+            <div class="stripe">
+                <section class="map-section wrap" id="location">
+                    <header>
+                        <h1>Track Us Down</h1>
+                    </header>
+                    <!-- Google Map -->
+                    <!-- https://developers.google.com/maps/documentation/javascript/tutorial -->
+                    <div id="map-canvas"></div>
 
-        <div class="stripe">
+                    <div class="map">
+                        <a href="http://goo.gl/maps/5MpRn" class="map-link">View Map</a>
+                    </div>
+                    <!--End Google Map-->
+                </section>
+            </div>
+        </section>
+
+        <div class="stripe footer">
             <footer id="info" class="primary-footer wrap" role="contentinfo">
                 <article class="social-widget">
                     <ul class="social-networks">
@@ -181,15 +191,14 @@
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script src="js/minified/main-min.js?0.0.3"></script>
 
-        <!-- needs to be prepended to script before compiling -->
-        <script src="js/minified/main-min.js?0.0.0"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- Google Analytics -->
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            var _gaq=[['_setAccount','UA-37880949-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.async = true;
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>

@@ -191,6 +191,9 @@ video {
     margin: auto auto;
     max-width: 1024px;
     width: 100%;
+    @media screen and (max-width: 65em) {
+        padding: 0 5%;
+    }
 }
 
 
@@ -198,35 +201,29 @@ video {
 // $Stripe
 // ==========================================================================
 
-.stripe {
+.stripe,
+.stripe.footer {
     overflow: auto;
     position: relative;
-    &:nth-child(3) {
-        background: darken(#EFEFEF, 5%);
-    }
-    &:nth-child(4) {
-        background: darken(#EFEFEF, 10%);
-    }
-    &:nth-child(5) {
-        background: darken(#EFEFEF, 15%);
-    }
-    &:nth-child(6) {
-        background: darken(#EFEFEF, 20%);
+}
+
+.stripe {
+    #main-content & {
+        &:nth-child(1) {
+            background: darken(#EFEFEF, 5%);
+        }
+        &:nth-child(2) {
+            background: darken(#EFEFEF, 10%);
+        }
+        &:nth-child(3) {
+            background: darken(#EFEFEF, 15%);
+        }
     }
 }
 
-
-// ==========================================================================
-// $Grid
-// ==========================================================================
-
-
-
-// ==========================================================================
-// $Primary Header
-// ==========================================================================
-
-//.primary-header {}
+.stripe.footer {
+    background: darken(#EFEFEF, 20%);
+}
 
 
 // ==========================================================================
@@ -323,7 +320,7 @@ video {
 
 .hero {
     @media screen and (min-width: 42em) {
-        max-width: 70%;
+        padding-right: 30%;
     }
 }
 
@@ -462,28 +459,6 @@ video {
 
 .join-us {
     @extend %btn;
-    @include background(linear-gradient(top, #a2d3e9, #7abedf));
-    box-shadow:
-      -1px 0px 1px #6fadcb, 0px 1px 1px #54809d,
-      -2px 1px 1px #6fadcb, -1px 2px 1px #54809d,
-      -3px 2px 1px #6fadcb, -2px 3px 1px #54809d,
-      -4px 3px 1px #6fadcb, -3px 4px 1px #54809d,
-      -5px 4px 1px #6fadcb, -4px 5px 1px #54809d,
-      -6px 5px 1px #6fadcb,
-      -6px 7px  0 rgba(black, 0.05),
-      -5px 8px  0 rgba(black, 0.05),
-      -3px 9px  0 rgba(black, 0.04),
-      -2px 10px 0 rgba(black, 0.04),
-      -1px 11px 0 rgba(black, 0.03),
-       0px 12px 0 rgba(black, 0.03),
-       1px 13px 0 rgba(black, 0.02),
-       2px 14px 0 rgba(black, 0.02),
-       3px 15px 0 rgba(black, 0.01),
-       4px 16px 0 rgba(black, 0.01),
-       5px 17px 0 rgba(black, 0.01),
-       6px 18px 0 rgba(black, 0.01),
-    inset 0 4px 5px -2px rgba(white, 0.5),
-    inset 0 1px 0 0 rgba(black, 0.3);
 }
 
 
@@ -526,35 +501,6 @@ video {
 
 .map-link {
     @extend %btn;
-    margin: 1.5em 0;
-        @include background(linear-gradient(
-       top, #f2d851, #ecc92b
-    ));
-    color: black;
-    text-shadow: -2px 2px 0 rgba(white, 0.3);
-    box-shadow:
-      -1px 0px 1px #d9b826, 0px 1px 1px #b1961d,
-      -2px 1px 1px #d9b826, -1px 2px 1px #b1961d,
-      -3px 2px 1px #d9b826, -2px 3px 1px #b1961d,
-      -4px 3px 1px #d9b826, -3px 4px 1px #b1961d,
-      -5px 4px 1px #d9b826, -4px 5px 1px #b1961d,
-      -6px 5px 1px #d9b826,
-
-      -6px 7px  0 rgba(black, 0.05),
-      -5px 8px  0 rgba(black, 0.05),
-      -3px 9px  0 rgba(black, 0.04),
-      -2px 10px 0 rgba(black, 0.04),
-      -1px 11px 0 rgba(black, 0.03),
-       0px 12px 0 rgba(black, 0.03),
-       1px 13px 0 rgba(black, 0.02),
-       2px 14px 0 rgba(black, 0.02),
-       3px 15px 0 rgba(black, 0.01),
-       4px 16px 0 rgba(black, 0.01),
-       5px 17px 0 rgba(black, 0.01),
-       6px 18px 0 rgba(black, 0.01),
-
-       inset 0 4px 5px -2px rgba(white, 0.5),
-       inset 0 1px 0 0 rgba(black, 0.3);
 }
 
 
@@ -573,9 +519,12 @@ video {
 .discussion-content {
     padding-left: 0;
     li {
-        float: left;
         list-style-type: none;
-        width: 50%;
+        @media screen and (min-width: 42em) {
+            float: left;
+            list-style-type: none;
+            width: 50%;
+        }
     }
 }
 

@@ -16,17 +16,17 @@
 // ==========================================================================
 
 %btn {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 50px 10px 10px;
-    @include transition(all 0.1s linear);
-    @include transform(translateZ(0));
-    text-decoration: none;
-    text-shadow: -2px 2px 0 rgba(black, 0.2);
+    border-radius: 4px;
+    display: block;
+    margin: .75em 0;
+    padding: 1em .5em;
+    text-align: center;
     text-transform: uppercase;
+    max-width: 10em;
+    background: gray;
     color: white;
-    &:active {
-        box-shadow: none;
-        @include transform(translate3d( -6px, 6px, 0));
+    &:hover {
+        background: lighten(gray, 5%);
+        color: white;
     }
 }

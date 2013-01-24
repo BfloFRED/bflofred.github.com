@@ -51,6 +51,13 @@
 
 
 // ==========================================================================
+// $Typeplate
+// ==========================================================================
+
+@import "partials/typeplate";
+
+
+// ==========================================================================
 // $Typography
 // ==========================================================================
 
@@ -88,11 +95,6 @@ input,
 select,
 textarea {
     color: #222;
-}
-
-body {
-    font-size: 1em;
-    line-height: 1.4;
 }
 
 a {
@@ -167,10 +169,6 @@ textarea {
 * {
     // Box Sizing FTW
     @include box-sizing(border-box);
-}
-
-body {
-    font: normal 100%/1.5 Helvetica, sans-serif;
 }
 
 img,
@@ -290,7 +288,7 @@ video {
     @include transition(0.3s all ease-out);
     @media screen and (min-width: 48.25em) {
         position: absolute;
-        top: -1.5em;
+        top: -2.5em;
         right: 0;
         background: #e5e5e5;
         background: rgba(0, 0, 0, 0.10);
@@ -342,7 +340,7 @@ video {
         &:hover {
             @media screen and (min-width: 48.25em) {
                 background: #CCC;
-                color: #FFF;
+                color: #333;
             }
         }
     }
@@ -354,138 +352,11 @@ video {
 // ==========================================================================
 
 .hero {
-    padding-bottom: 1.5em;
-    @media screen and (min-width: 42em) {
-        padding-right:22em;
-    }
+    padding-bottom: 1.65em;
 }
 
-
-// ==========================================================================
-// $Learn
-// ==========================================================================
-
-.subjects {
-    height: 350px;
-    h1 {
-        margin-bottom: 0;
-    }
-}
-
-#techList {
-    height: 280px;
-    width: 50%;
-    position: relative;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
-    font-size: 100%;
-    text-transform: uppercase;
-    color: #666;
-    li {
-        position: absolute;
-        top: 0;
-        left: 0;
-        font-size: .80em;
-    }
-}
-
-.html5 {
-    font-weight: 700;
-    letter-spacing: -.05em;
-    color: #333;
-    @include transform(scale(7.5, 7.8) translate(1.18em, .68em));
-}
-
-.javascript {
-    letter-spacing: -.04em;
-    font-weight: 400;
-    @include transform(scale(1.4) rotate(90deg) translate(3.88em, -13.2em));
-}
-
-.accessibility {
-    letter-spacing: -.05em;
-    font-weight: 300;
-    @include transform(scale(1.4, 1.33) rotate(90deg) translate(4.1em, -18.0em));
-}
-
-.responsive {
-    font-weight: 300;
-    letter-spacing: -.03em;
-    word-spacing: .3em;
-    @include transform(scale(2) translate(2.12em, 5.14em));
-}
-
-.usability {
-    font-weight: 400;
-    letter-spacing: -.04em;
-    @include transform(scale(2.85, 3) translate(7.14em, 3.55em));
-}
-
-.ajax {
-    letter-spacing: -0.01em;
-    font-weight: 700;
-    @include transform(scale(2.4, 2.3) rotate(90deg) translate(6em, -5.8em));
-}
-
-.css3 {
-    letter-spacing: .01em;
-    font-weight: 700;
-    color: #333;
-    @include transform(scale(6.8, 6.75) rotate(90deg) translate(1.32em, -4.54em));
-}
-
-.jquery {
-    letter-spacing: 0.045em;
-    font-weight: 700;
-    @include transform(scale(3.88, 3.8) translate(5.42em, 3.72em));
-}
-
-.objectoriented {
-    font-weight: 700;
-    letter-spacing: -.010em;
-    @include transform(scale(1.85, 1.9) translate(1.86em, 6.5em));
-}
-
-.wordpress {
-    font-weight: 300;
-    letter-spacing: -0.05em;
-    @include transform(scale(2.75, 3) translate(1.72em, 4.95em));
-}
-
-.seo {
-    font-weight: 300;
-    letter-spacing: -0.07em;
-    @include transform( scale(3.9, 4) translate(6.05em, .95em) );
-}
-
-.crossbrowser {
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    word-spacing: .2em;
-    @include transform( scale(2) translate(2.28em, 8.58em) );
-}
-
-.webstandards {
-    font-weight: 300;
-    letter-spacing: 0em;
-    word-spacing: .1em;
-    @include transform( scale(2) translate(12.7em, 8.6em) );
-}
-
-.jg {
-    color: #333;
-    font-weight: 700;
-    letter-spacing: -.03em;
-    @include transform( scale(3.4) translate(7.03em, 2.15em) );
-}
-
-.skills {
-    color: #333;
-    font-weight: 700;
-    letter-spacing: -.03em;
-    @include transform( scale(1.8) translate(9.95em, 9.55em) );
+.callout-txt {
+    max-width: 24em;
 }
 
 

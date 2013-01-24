@@ -2,17 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/img\/nextplex-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/nextplex-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/nextplex-logo.png",
-      "initialSize" : 326894,
-      "fileType" : 8192
-    },
     "\/404.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -31,6 +20,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/apple-touch-icon.png",
       "initialSize" : 1144,
+      "fileType" : 8192
+    },
+    "\/logo\/Logo_v2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/logo\/Logo_v2.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/logo\/Logo_v2.png",
+      "initialSize" : 52342,
       "fileType" : 8192
     },
     "\/js\/plugins.js" : {
@@ -303,6 +303,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/scss\/partials\/_typeplate.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/partials\/_typeplate.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_typeplate.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/scss\/oldie.scss" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 0,
@@ -348,15 +360,15 @@
       "initialSize" : 1144,
       "fileType" : 8192
     },
-    "\/logo\/Logo_v2.png" : {
+    "\/img\/nextplex-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/logo\/Logo_v2.png",
+      "inputAbbreviatedPath" : "\/img\/nextplex-logo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/logo\/Logo_v2.png",
-      "initialSize" : 52342,
+      "outputAbbreviatedPath" : "\/img\/nextplex-logo.png",
+      "initialSize" : 326894,
       "fileType" : 8192
     },
     "\/scss\/partials\/_vars.scss" : {

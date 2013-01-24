@@ -4,12 +4,8 @@
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 800;
+    text-transform: uppercase;
     @include transition(.0123s opacity ease-in-out);
-}
-
-.primary-nav {
-    //text-transform: uppercase;
-    letter-spacing: 0.05555555555556em;
 }
 
 
@@ -17,9 +13,8 @@ h1,h2,h3,h4,h5,h6 {
 // $Typekit
 // ==========================================================================
 
-// Adelle: slab serif
-// Seen mainly in newspapers and magazines. A flexible typeface
-// making it very multi-purpose. Unobtrusive, nice texture and energetic chars
+// Adelle: slab serif, mainly in newspapers and magazines. flexible typeface
+// making it very multi-purpose. Unobtrusive, nice texture, energetic chars
 //
 // thin 100
 // thin italic 100
@@ -65,10 +60,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .callout-title {
-    font-style: italic;
-    @extend .beta;
-    line-height: 1.25;
-    text-transform: capitalize;
+    letter-spacing: 20px;
+    @extend .alpha;
+    line-height: 1.125;
 }
 
 .wf-active .callout-txt {
@@ -76,5 +70,5 @@ h1,h2,h3,h4,h5,h6 {
 }
 .wf-active .callout-txt {
     font-weight: 300;
-    //font-style: italic;
+    font-style: italic;
 }

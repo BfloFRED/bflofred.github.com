@@ -9,33 +9,19 @@
         <!-- DNS prefetching -->
         <!-- http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers -->
         <!-- https://github.com/csswizardry/csswizardry.github.com/blob/b52472cea6a0f087944afda750839d7c96fab7d3/_layouts/default.html#L7-L15 -->
-        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="dns-prefetch" href="//use.typekit.net">
         <link rel="dns-prefetch" href="//www.google-analytics.com">
         <link rel="dns-prefetch" href="//maps.googleapis.com">
 
-        <!-- https://developers.google.com/webfonts/docs/webfont_loader -->
+        <!-- typekit -->
         <script>
-            WebFontConfig = {
-                google: { families: [ 'Fjalla One', 'Oswald:400,700,300' ] }
+          (function() {
+            var config = {
+              kitId: 'dia6gbk',
+              scriptTimeout: 2200
             };
-            (function() {
-                // http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more
-                // https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode
-                // Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context.
-                // This strict context prevents certain actions from being taken and throws more exceptions (generally providing the user with more
-                // information and a tapered-down coding experience).
-                //
-                // It catches some common coding bloopers, throwing exceptions.
-                // It prevents, or throws errors, when relatively "unsafe" actions are taken (such as gaining access to the global object).
-                // It disables features that are confusing or poorly thought out.
-                "use strict";
-                var wf = document.createElement('script');
-                wf.src = ('https:' === document.location.protocol ? 'https' : 'http') +
-                    '://ajax.googleapis.com/ajax/libs/webfont/1.1.0/webfont.js';
-                wf.async = 'true';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(wf, s);
-            })();
+            var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+          })();
         </script>
 
         <!-- site title: make it good -->
@@ -78,12 +64,11 @@
         <!-- Customizing Speed Dial CSS Styles -->
         <!-- <link rel=stylesheet href="minimizedstyles.css" media="(view-mode:minimized)"> -->
 
-        <!-- Google Fonts -->
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fjalla+One">
         <!-- ie7-8 style sheet -->
         <!--[if lte IE 8]><link rel="stylesheet" href="./css/oldie.css"><![endif]-->
-        <!-- style sheet -->
-        <!--[if gt IE 8]><!--><link rel="stylesheet" href="./css/main.css?0.0.4"><!--<![endif]-->
+
+        <!-- main style sheet -->
+        <!--[if gt IE 8]><!--><link rel="stylesheet" href="./css/main.css?0.0.5"><!--<![endif]-->
 
         <!-- Modernizr -->
         <script src="./js/vendor/modernizr-2.6.2.min.js"></script>
@@ -110,12 +95,12 @@
         </div>
 
         <div class="stripe">
-            <section>
-                <figure class="hero wrap">
+            <section class="wrap">
+                <figure class="hero">
                     <header>
-                        <h1>We're a group of Passionate Front-end Web Developers and Advocates living in sunny Buffalo, New York</h1>
+                        <h1 class="callout-title">We're a group of Passionate Front-end Web Developers &amp; Advocates living in sunny Buffalo, New York</h1>
                     </header>
-                    <p>Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate all centered around Front&ndash;end Web Development &amp; Design.</p>
+                    <p class="callout-txt delta">Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate all centered around Front&ndash;end Web Development &amp; Design.</p>
                 </figure>
             </section>
         </div>
@@ -124,7 +109,7 @@
             <div class="stripe">
                 <section class="subjects wrap">
                     <header>
-                        <h1>Learn The Cool Stuff</h1>
+                        <h1 class="beta">Learn The Cool Stuff</h1>
                     </header>
                     <ul id="techList">
                         <li class="html5">html5</li>
@@ -135,32 +120,27 @@
                         <li class="webstandards">web standards</li>
                         <li class="accessibility">accessibility</li>
                         <li class="usability">usability</li>
-                        <li class="seo">seo</li>
                         <li class="responsive">responsive layout</li>
                         <li class="ajax">ajax</li>
-                        <li class="objectoriented">object oriented</li>
-                        <li class="crossbrowser">cross browser</li>
-                        <li class="jg">j.g.</li>
-                        <li class="skills">skills</li>
+                        <li class="typography">typography &amp; layout</li>
                     </ul>
                 </section>
             </div>
 
             <div class="stripe">
                 <section class="wrap" id="discussion">
-                    <ul class="discussion-content">
-                        <li><img src="img/nextplex-logo.png" class="nextplex-logo" alt=""></li>
-                        <li><h3>You're building the future. Don't do it alone.</h3>
-                            <p>NextPlex provides online tools that foster entrepreneurial tech communities. Join us on Nextplex where we start discussions and talk about meet up agendas. Consider this our home away from home. A warm cozy space to initiate discussion before each meet up.<a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" class="join-us" rel="me">Join Us</a></p>
-                        </li>
-                    </ul>
+                    <header>
+                        <h1 class="beta">You're building the future. Don't do it alone.</h1>
+                    </header>
+                    <p class="epsilon">NextPlex provides online tools that foster entrepreneurial tech communities. Join us on Nextplex where we start discussions and talk about meet up agendas. Consider this our home away from home. A warm cozy space to initiate discussion before each meet up.</p>
+                    <a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" class="join-us" rel="me">Join Us</a>
                 </section>
             </div>
 
             <div class="stripe">
                 <section class="map-section wrap" id="location">
                     <header>
-                        <h1>Track Us Down</h1>
+                        <h1 class="beta">Track Us Down</h1>
                     </header>
                     <!-- Google Map -->
                     <!-- https://developers.google.com/maps/documentation/javascript/tutorial -->
@@ -200,7 +180,7 @@
                         </address>
                     </li>
                 </ul>
-                <small>BfloFRED Founders: Chris Van Patten and Dennis Gaebel Jr. &bull; Sept 25, 2012.</small>
+                <small class="copyright">BfloFRED Founders: Chris Van Patten and Dennis Gaebel Jr. &bull; Sept 25, 2012.</small>
             </footer>
         </div>
 

@@ -545,28 +545,40 @@ table {
 
 /* convert pixels to ems - defaults to 16px base */
 /* find width of columns */
+@media screen and (max-width: 19.5em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\000035}}
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 800;
+  html {
+    font-size: 0.77777777777778em;
+  }
+}
+@media screen and (min-width: 19.51em) and (max-width: 28em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\000035}}
+  html {
+    font-size: 0.88888888888889em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000315}}
+body {
   -webkit-transition: 0.0123s opacity ease-in-out;
   -moz-transition: 0.0123s opacity ease-in-out;
   -o-transition: 0.0123s opacity ease-in-out;
   transition: 0.0123s opacity ease-in-out;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000310}}
-.primary-nav {
-  letter-spacing: 0.05555555555556em;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000333}}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000356}}
 .wf-loading body {
   font-family: "adelle", serif;
   visibility: hidden;
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000369}}
 .wf-loading h1,
 .wf-loading h2,
 .wf-loading h3,
@@ -576,39 +588,43 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000373}}
 .wf-active body {
   font-family: "adelle", serif;
   visibility: visible;
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000386}}
 .wf-active h1,
 .wf-active h2,
 .wf-active h3,
 .wf-active h4,
 .wf-active h5,
-.wf-active h6,
-.wf-active nav {
+.wf-active h6 {
   font-weight: 800;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000390}}
+.wf-active .primary-nav {
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000395}}
+.wf-active .callout-txt {
+  font-weight: 800;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000399}}
+.wf-active .callout-txt {
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\00003109}}
 .callout-title {
   font-style: italic;
   line-height: 1.25;
   text-transform: capitalize;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000374}}
-.wf-active .callout-txt {
-  font-weight: 800;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/WebServer\/share\/httpd\/bflofred\.github\.com\/scss\/partials\/_typography\.scss}line{font-family:\0000377}}
-.wf-active .callout-txt {
-  font-weight: 300;
 }
 
 @font-face {

@@ -126,11 +126,13 @@ a:active {
 // Customize the background color to match your design.
 ::-moz-selection {
     background: $selectionColor;
+    color: #EFEFEF;
     text-shadow: none;
 }
 
 ::selection {
     background: $selectionColor;
+    color: #EFEFEF;
     text-shadow: none;
 }
 
@@ -245,6 +247,7 @@ video {
 // ==========================================================================
 
 #logo {
+    margin: 0.4125em auto;
     a {
         display: inline-block;
         height: 210px;
@@ -288,7 +291,7 @@ video {
     @include transition(0.3s all ease-out);
     @media screen and (min-width: 48.25em) {
         position: absolute;
-        top: -2.5em;
+        top: -1.65em;
         right: 0;
         background: #e5e5e5;
         background: rgba(0, 0, 0, 0.10);
@@ -356,7 +359,7 @@ video {
 }
 
 .callout-txt {
-    max-width: 24em;
+    max-width: 28em;
 }
 
 

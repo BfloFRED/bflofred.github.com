@@ -1,15 +1,37 @@
 // ==========================================================================
+// $Globals
+// ==========================================================================
+
+html {
+    // controls overall font-size for small screens
+    @media screen and (max-width: 19.5em) {
+        font-size: 0.77777777777778em; // 14 / 18
+    }
+    @media screen and (min-width: 19.51em) and (max-width: 28em) {
+        font-size: 0.88888888888889em; // 16 / 18
+    }
+}
+
+body {
+    @include transition(.0123s opacity ease-in-out);
+    // Typekit won't support ligatures for Adelle
+    // http://elliotjaystocks.com/blog/the-fine-flourish-of-the-ligature
+    // text-rendering: optimizeLegibility;
+    // -webkit-font-feature-settings:"liga", "dlig";
+    // -moz-font-feature-settings:"liga=1, dlig=1";
+    // -moz-font-feature-settings:"liga", "dlig"; // EDIT: new syntax for FF 15+
+    // -ms-font-feature-settings:"liga", "dlig";
+    // -o-font-feature-settings:"liga", "dlig";
+    // font-feature-settings:"liga", "dlig";
+}
+
+
+// ==========================================================================
 // $Headline Titles
 // ==========================================================================
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 800;
-    @include transition(.0123s opacity ease-in-out);
-}
-
-.primary-nav {
-    //text-transform: uppercase;
-    letter-spacing: 0.05555555555556em;
 }
 
 
@@ -17,17 +39,19 @@ h1,h2,h3,h4,h5,h6 {
 // $Typekit
 // ==========================================================================
 
-// Adelle: slab serif
-// Seen mainly in newspapers and magazines. A flexible typeface
-// making it very multi-purpose. Unobtrusive, nice texture and energetic chars
+// Adelle: slab serif : http://www.type-together.com/Adelle
+// Seen mainly in newspapers and magazines. A flexible typeface making it very
+// multi-purpose, unobtrusive with a wonderful texture and energetic characters.
+// Designed by José Scaglione and Veronika Burian who also run "TypeTogether"
 //
-// thin 100
-// thin italic 100
-// lght italic 300
-// reg 400
-// bold 700
-// extra bold 800
-// extra bold italic 800
+// Typekit Kit Editor
+// thin - 100
+// thin italic - 100
+// lght italic - 300
+// reg - 400
+// bold - 700
+// extra bold - 800
+// extra bold italic - 800
 
 .wf-loading body {
     font-family: $custom-title-font;
@@ -59,10 +83,28 @@ h1,h2,h3,h4,h5,h6 {
 .wf-active h3,
 .wf-active h4,
 .wf-active h5,
-.wf-active h6,
-.wf-active nav {
+.wf-active h6 {
     font-weight: 800;
 }
+
+.wf-active .primary-nav {
+    font-weight: 400;
+    //text-transform: uppercase;
+}
+
+.wf-active .callout-txt {
+    font-weight: 800;
+}
+
+.wf-active .callout-txt {
+    font-weight: 300;
+    //font-style: italic;
+}
+
+
+// ==========================================================================
+// $Hero
+// ==========================================================================
 
 .callout-title {
     font-style: italic;
@@ -71,10 +113,6 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: capitalize;
 }
 
-.wf-active .callout-txt {
-    font-weight: 800;
-}
-.wf-active .callout-txt {
-    font-weight: 300;
-    //font-style: italic;
+.callout-txt {
+    @extend .epsilon;
 }

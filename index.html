@@ -4,6 +4,7 @@
 <!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
         <!-- DNS prefetching -->
         <!-- http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers -->
@@ -18,15 +19,24 @@
                 google: { families: [ 'Fjalla One', 'Oswald:400,700,300' ] }
             };
             (function() {
+                // http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more
+                // https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope/Strict_mode
+                // Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context.
+                // This strict context prevents certain actions from being taken and throws more exceptions (generally providing the user with more
+                // information and a tapered-down coding experience).
+                //
+                // It catches some common coding bloopers, throwing exceptions.
+                // It prevents, or throws errors, when relatively "unsafe" actions are taken (such as gaining access to the global object).
+                // It disables features that are confusing or poorly thought out.
+                "use strict";
                 var wf = document.createElement('script');
-                wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                wf.src = ('https:' === document.location.protocol ? 'https' : 'http') +
                     '://ajax.googleapis.com/ajax/libs/webfont/1.1.0/webfont.js';
                 wf.async = 'true';
                 var s = document.getElementsByTagName('script')[0];
                 s.parentNode.insertBefore(wf, s);
             })();
         </script>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
         <!-- site title: make it good -->
         <title>BfloFRED &raquo; Front&ndash;end Developers Meetup group &raquo; Buffalo, New York</title>
@@ -71,22 +81,26 @@
         <!-- Google Fonts -->
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fjalla+One">
         <!-- ie7-8 style sheet -->
-        <!--[if lte IE 8]><link rel="stylesheet" href="css/oldie.css"><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="./css/oldie.css"><![endif]-->
         <!-- style sheet -->
-        <!--[if gt IE 8]><!--><link rel="stylesheet" href="/css/main.css?0.0.3"><!--<![endif]-->
+        <!--[if gt IE 8]><!--><link rel="stylesheet" href="./css/main.css?0.0.4"><!--<![endif]-->
 
         <!-- Modernizr -->
-        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="./js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="index">
+        <a href="//github.com/BfloFRED/bflofred.github.com"><img style="position: fixed; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
+
         <div class="stripe">
             <header class="primary-header wrap" role="banner">
                 <h1 id="logo"><a href="/" rel="me bookmark">BfloFRED</a></h1>
+                <!-- small nav trigger -->
                 <a href="#menu" class="menu-link" id="menu-toggle"><span class="fs1" aria-hidden="true" data-icon="&#xe00c;"></span></a>
+                <!-- end/ small nav trigger -->
 
                 <nav id="menu" class="primary-nav" role="navigation">
                     <ul id="nav-list" class="primary-nav-list">
-                        <li class="primary-nav-link"><a href="#" rel="bookmark">CoWork</a></li>
+                        <li class="primary-nav-link"><a href="http://coworkbuffalo.com" rel="external bookmark">CoworkBuffalo</a></li>
                         <li class="primary-nav-link"><a href="#discussion" rel="bookmark">Discussion</a></li>
                         <li class="primary-nav-link"><a href="#location" rel="bookmark">Location</a></li>
                         <li class="primary-nav-link"><a href="#info" rel="bookmark">Info</a></li>
@@ -179,7 +193,7 @@
                     <li class="url"><span aria-hidden="true" class="icon-earth"></span><a href="//bflofred.github.com" rel="me bookmark">https://bflofred.github.com</a></li>
                     <li class="adr">
                         <address>
-                            <span class=""><span aria-hidden="true" class="icon-location"></span><a href="//coworkbuffalo.com" rel="external">CoWork</a></span>
+                            <span class=""><span aria-hidden="true" class="icon-location"></span><a href="//coworkbuffalo.com" rel="external">CoworkBuffalo</a></span>
                             <span class="street-address">225 Delaware Avenue</span>
                             <span class="locality">Buffalo</span>
                             <span class="region">New York</span>
@@ -191,8 +205,8 @@
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
-        <script src="js/minified/main-min.js?0.0.3"></script>
+        <script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script src="./js/minified/main-min.js?0.0.4"></script>
 
         <!-- Google Analytics -->
         <script>

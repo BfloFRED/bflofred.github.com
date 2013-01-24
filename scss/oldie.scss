@@ -1,0 +1,196 @@
+// Welcome to the HTML5 Boilerplate SASS File
+// this is an attempt to make the html5 boilerplate go sass-arriffic
+// feel free to help make it better and more efficient for us sassers
+
+
+// HTML5 Boilerplate
+// What follows is the result of much research on cross-browser styling.
+// Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+// Kroc Camen, and the H5BP dev community and team.
+
+
+// ==========================================================================
+// $Compass
+// ==========================================================================
+
+@import "compass";
+
+// ==========================================================================
+// $Vars
+// ==========================================================================
+
+@import "partials/vars";
+
+
+// ==========================================================================
+// $Normalize
+// ==========================================================================
+
+@import "partials/normalize";
+
+
+// ==========================================================================
+// $Functions
+// ==========================================================================
+
+@import "partials/functions";
+
+
+// ==========================================================================
+// $Mixins
+// ==========================================================================
+
+@import "partials/mixins";
+
+
+// ==========================================================================
+// $Placeholders
+// ==========================================================================
+
+@import "partials/placeholders";
+
+
+// ==========================================================================
+// $Typography
+// ==========================================================================
+
+@import "partials/typography";
+
+
+// ==========================================================================
+// $Icons
+// ==========================================================================
+
+// custom icons
+@import "partials/icons";
+
+// ==========================================================================
+// $HTML5 Boilerplate Main Sass Variables
+// ==========================================================================
+
+// Anchors
+$linkColor: gray;
+$linkVisitedColor: $linkColor;
+$linkHoverColor: lighten($linkColor, 10%);
+$focusStyle: thin dotted;
+$activeStyle: 0;
+$selectionColor: #503726;
+
+
+// ==========================================================================
+// $Base styles: opinionated defaults
+// ==========================================================================
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: $linkColor;
+}
+
+a:visited {
+    color: $linkVisitedColor;
+}
+
+a:hover {
+    color: $linkHoverColor;
+}
+
+a:focus {
+    outline: $focusStyle;
+}
+
+// Improve readability when focused
+// and hovered in all browsers: h5bp.com/h
+a:hover,
+a:active {
+    outline: $activeStyle;
+}
+
+// Remove text-shadow in selection highlight: h5bp.com/i
+// These selection declarations have to be separate.
+// Customize the background color to match your design.
+::-moz-selection {
+    background: $selectionColor;
+    text-shadow: none;
+}
+
+::selection {
+    background: $selectionColor;
+    text-shadow: none;
+}
+
+// A better looking default horizontal rule
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+// Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+img {
+    vertical-align: middle;
+}
+
+// Remove default fieldset styles
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+// Allow only vertical resizing of textareas
+textarea {
+    resize: vertical;
+}
+
+
+// ==========================================================================
+// $Globals
+// ==========================================================================
+
+* {
+    // Box Sizing FTW
+    @include box-sizing(border-box);
+}
+
+body {
+    font: normal 100%/1.5 Helvetica, sans-serif;
+}
+
+img,
+iframe,
+object,
+embed,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+
+// ==========================================================================
+// $Wrap Container
+// ==========================================================================
+
+.wrap {
+    margin: auto auto;
+    max-width: 600px;
+    width: 100%;
+    @media screen and (max-width: 65em) {
+        padding: 0 5%;
+    }
+}

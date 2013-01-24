@@ -23,10 +23,8 @@
     text-align: center;
     text-transform: uppercase;
     max-width: 10em;
-    background: gray;
-    color: white;
+    background: #444;
     &:hover {
-        background: lighten(gray, 5%);
-        color: white;
+        background: lighten(#444, 5%);
     }
 }

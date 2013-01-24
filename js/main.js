@@ -1,7 +1,4 @@
-// https://maps.google.com/maps?q=225+delaware+avenue,+Buffalo,+NY&hl=en&sll=42.746632,-75.770041&sspn=5.977525,8.591309&t=h&hnear=225+Delaware+Ave,+Buffalo,+Erie,+New+York+14202&z=16
-// API key console
-// https://code.google.com/apis/console
-// BfloFRED API Key : key=AIzaSyBMSezbmos0W2n6BQutkFvNjkF5NTPd0-Q
+// variables
 var sw         = document.body.clientWidth,
     bp         = 550,
     map        = $('.map'),
@@ -16,12 +13,18 @@ var sw         = document.body.clientWidth,
 // ============================================================
 
 function googleMapAPIScript() {
-  var script     = document.createElement("script");
-      script.async;
-      // Load the Google Maps API : required
-      // https://developers.google.com/maps/documentation/javascript/tutorial
-      script.src = "http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyBMSezbmos0W2n6BQutkFvNjkF5NTPd0-Q&sensor=true";
-  document.head.appendChild(script);
+    // https://maps.google.com/maps?q=225+delaware+avenue,+Buffalo,+NY&hl=en&sll=42.746632,-75.770041&sspn=5.977525,8.591309&t=h&hnear=225+Delaware+Ave,+Buffalo,+Erie,+New+York+14202&z=16
+    // API key console
+    // https://code.google.com/apis/console
+    // BfloFRED API Key : key=AIzaSyBMSezbmos0W2n6BQutkFvNjkF5NTPd0-Q
+
+    // Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context.
+    "use strict";
+    var script = document.createElement("script");
+    // Load the Google Maps API : required
+    // https://developers.google.com/maps/documentation/javascript/tutorial
+    script.src = "http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyBMSezbmos0W2n6BQutkFvNjkF5NTPd0-Q&sensor=true";
+    document.head.appendChild(script);
 }
 
 
@@ -29,6 +32,13 @@ function googleMapAPIScript() {
 // ============================================================
 
 function buildEmbed() {
+    // https://maps.google.com/maps?q=225+delaware+avenue,+Buffalo,+NY&hl=en&sll=42.746632,-75.770041&sspn=5.977525,8.591309&t=h&hnear=225+Delaware+Ave,+Buffalo,+Erie,+New+York+14202&z=16
+    // API key console
+    // https://code.google.com/apis/console
+    // BfloFRED API Key : key=AIzaSyBMSezbmos0W2n6BQutkFvNjkF5NTPd0-Q
+
+    // Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context.
+    "use strict";
     $('<div class="map-container"/>').html(embed).prependTo(map);
 }
 
@@ -37,6 +47,13 @@ function buildEmbed() {
 // ============================================================
 
 function buildStatic() {
+    // https://maps.google.com/maps?q=225+delaware+avenue,+Buffalo,+NY&hl=en&sll=42.746632,-75.770041&sspn=5.977525,8.591309&t=h&hnear=225+Delaware+Ave,+Buffalo,+Erie,+New+York+14202&z=16
+    // API key console
+    // https://code.google.com/apis/console
+    // BfloFRED API Key : key=AIzaSyBMSezbmos0W2n6BQutkFvNjkF5NTPd0-Q
+
+    // Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context.
+    "use strict";
     var mapLink = $('.map-link').attr('href'),
         $img    = $('<img class="static-map-img" alt="">').attr('src', staticmap);
 
@@ -48,6 +65,13 @@ function buildStatic() {
 // ============================================================
 
 function buildMap() {
+    // https://maps.google.com/maps?q=225+delaware+avenue,+Buffalo,+NY&hl=en&sll=42.746632,-75.770041&sspn=5.977525,8.591309&t=h&hnear=225+Delaware+Ave,+Buffalo,+Erie,+New+York+14202&z=16
+    // API key console
+    // https://code.google.com/apis/console
+    // BfloFRED API Key : key=AIzaSyBMSezbmos0W2n6BQutkFvNjkF5NTPd0-Q
+
+    // Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context.
+    "use strict";
     if (sw > bp) {
         // If map doesn't already exist
         if ($('.map-container').length < 1) {

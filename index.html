@@ -2,199 +2,202 @@
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <!-- DNS prefetching -->
-        <!-- http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers -->
-        <!-- https://github.com/csswizardry/csswizardry.github.com/blob/b52472cea6a0f087944afda750839d7c96fab7d3/_layouts/default.html#L7-L15 -->
-        <link rel="dns-prefetch" href="//use.typekit.net">
-        <link rel="dns-prefetch" href="//www.google-analytics.com">
-        <link rel="dns-prefetch" href="//maps.googleapis.com">
+		<!-- DNS prefetching -->
+		<!-- http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers -->
+		<!-- https://github.com/csswizardry/csswizardry.github.com/blob/b52472cea6a0f087944afda750839d7c96fab7d3/_layouts/default.html#L7-L15 -->
+		<link rel="dns-prefetch" href="//use.typekit.net">
+		<link rel="dns-prefetch" href="//get.gridsetapp.com">
+		<link rel="dns-prefetch" href="//www.google-analytics.com">
+		<link rel="dns-prefetch" href="//maps.googleapis.com">
 
-        <!-- typekit -->
-        <script>
-          (function() {
-            var config = {
-              kitId: 'dia6gbk',
-              scriptTimeout: 2200
-            };
-            var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-          })();
-        </script>
+		<!-- typekit -->
+		<script>
+		  (function() {
+			var config = {
+			  kitId: 'dia6gbk',
+			  scriptTimeout: 2200
+			};
+			var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+		  })();
+		</script>
 
-        <!-- site title: make it good -->
-        <title>BfloFRED &raquo; Front&ndash;end Developers Meetup group &raquo; Buffalo, New York</title>
+		<!-- site title: make it good -->
+		<title>BfloFRED &raquo; Front&ndash;end Developers Meetup group &raquo; Buffalo, New York</title>
 
-        <!-- keep the meta description content value to around 160 chars -->
-        <meta name="description" content="A local meet up group and Open Source organization based out of Buffalo, New York focused on a passion for Front-end Web Design and Development using browser native technologies.">
+		<!-- keep the meta description content value to around 160 chars -->
+		<meta name="description" content="A local meet up group and Open Source organization based out of Buffalo, New York focused on a passion for Front-end Web Design and Development using browser native technologies.">
 
-        <!-- search engine robot: index this page -->
-        <meta name="robots" content="all">
+		<!-- search engine robot: index this page -->
+		<meta name="robots" content="all">
 
-        <!-- viewport -->
-        <!-- The keyword “device-width” is intended to set the width of the Viewport to the width of the device that is viewing the page -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+		<!-- viewport -->
+		<!-- The keyword “device-width” is intended to set the width of the Viewport to the width of the device that is viewing the page -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
 
-        <!-- Tells the browser if the page has been built to be viewable on a small screen -->
-        <!-- http://blogs.msdn.com/b/iemobile/archive/2010/11/22/the-ie-mobile-viewport-on-windows-phone-7.aspx -->
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
+		<!-- Tells the browser if the page has been built to be viewable on a small screen -->
+		<!-- http://blogs.msdn.com/b/iemobile/archive/2010/11/22/the-ie-mobile-viewport-on-windows-phone-7.aspx -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
 
-        <!-- Apple Specific Meta Tags -->
-        <!-- http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html -->
-        <!-- If content is set to yes, the web application runs in full-screen mode; otherwise, it does not. -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
+		<!-- Apple Specific Meta Tags -->
+		<!-- http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html -->
+		<!-- If content is set to yes, the web application runs in full-screen mode; otherwise, it does not. -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
 
-        <!-- Sets the style of the status bar for a web application. -->
-        <!-- If set to black, the status bar has a black background -->
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<!-- Sets the style of the status bar for a web application. -->
+		<!-- If set to black, the status bar has a black background -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-        <!-- Opera Speed Dial autoreloading behavior that will be used if the user adds the site to a Speed Dial slot. Makes things more dynamic -->
-        <!-- Note that the value is set in seconds. 3600 will thus reload the Speed Dial entry every hour. -->
-        <meta http-equiv="preview-refresh" content="3600">
+		<!-- Opera Speed Dial autoreloading behavior that will be used if the user adds the site to a Speed Dial slot. Makes things more dynamic -->
+		<!-- Note that the value is set in seconds. 3600 will thus reload the Speed Dial entry every hour. -->
+		<meta http-equiv="preview-refresh" content="3600">
 
-        <!-- Opera Speed Dial and Bookmark Enhancements -->
-        <!-- http://dev.opera.com/articles/view/opera-speed-dial-enhancements -->
-        <!-- Opera Bookmark Icon = 128 x 128 .png/.gif/.jpg -->
-        <!-- <link rel="icon" type="image/png" href="http://path/to/128x128image.png"> -->
-        <!-- Opera Speed Dial Icon = 512 x 512 .png/.gif/.jpg -->
-        <!-- <link rel="icon" type="image/png" href="http://path/to/200x200image.png"> -->
-        <!-- Customizing Speed Dial CSS Styles -->
-        <!-- <link rel=stylesheet href="minimizedstyles.css" media="(view-mode:minimized)"> -->
+		<!-- Opera Speed Dial and Bookmark Enhancements -->
+		<!-- http://dev.opera.com/articles/view/opera-speed-dial-enhancements -->
+		<!-- Opera Bookmark Icon = 128 x 128 .png/.gif/.jpg -->
+		<!-- <link rel="icon" type="image/png" href="http://path/to/128x128image.png"> -->
+		<!-- Opera Speed Dial Icon = 512 x 512 .png/.gif/.jpg -->
+		<!-- <link rel="icon" type="image/png" href="http://path/to/200x200image.png"> -->
+		<!-- Customizing Speed Dial CSS Styles -->
+		<!-- <link rel=stylesheet href="minimizedstyles.css" media="(view-mode:minimized)"> -->
 
-        <!-- ie7-8 style sheet -->
-        <!--[if lte IE 8]><link rel="stylesheet" href="./css/oldie.css"><![endif]-->
+		<!-- ie7-8 style sheet -->
+		<!--[if lte IE 8]><link rel="stylesheet" href="./css/oldie.css"><![endif]-->
 
-        <!-- main style sheet -->
-        <!--[if gt IE 8]><!--><link rel="stylesheet" href="./css/main.css?0.0.5"><!--<![endif]-->
+		<!-- main style sheet -->
+		<!--[if gt IE 8]><!--><link rel="stylesheet" href="./css/main.css?0.0.5"><!--<![endif]-->
 
-        <!-- Modernizr -->
-        <script src="./js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body class="index">
-        <a href="//github.com/BfloFRED/bflofred.github.com"><img style="position: fixed; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
+		<!-- Modernizr -->
+		<script src="./js/vendor/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body class="index">
+		<a href="//github.com/BfloFRED/bflofred.github.com"><img style="position: fixed; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
 
-        <div class="stripe">
-            <header class="primary-header wrap" role="banner">
-                <h1 id="logo"><a href="/" rel="me bookmark">BfloFRED</a></h1>
-                <!-- small nav trigger -->
-                <a href="#menu" class="menu-link" id="menu-toggle"><span class="fs1" aria-hidden="true" data-icon="&#xe00c;"></span></a>
-                <!-- end/ small nav trigger -->
+		<div class="stripe">
+			<header class="primary-header wrap" role="banner">
+				<h1 id="logo"><a href="/" rel="me bookmark">BfloFRED</a></h1>
+				<!-- small nav trigger -->
+				<a href="#menu" class="menu-link" id="menu-toggle"><span class="fs1" aria-hidden="true" data-icon="&#xe00c;"></span></a>
+				<!-- end/ small nav trigger -->
 
-                <nav id="menu" class="primary-nav" role="navigation">
-                    <ul id="nav-list" class="primary-nav-list">
-                        <li class="primary-nav-link"><a href="http://coworkbuffalo.com" rel="external bookmark">CoworkBuffalo</a></li>
-                        <li class="primary-nav-link"><a href="#discussion" rel="bookmark">Discussion</a></li>
-                        <li class="primary-nav-link"><a href="#location" rel="bookmark">Location</a></li>
-                        <li class="primary-nav-link"><a href="#info" rel="bookmark">Info</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+				<nav id="menu" class="primary-nav" role="navigation">
+					<ul id="nav-list" class="primary-nav-list">
+						<li class="primary-nav-link"><a href="http://coworkbuffalo.com" rel="external bookmark">CoworkBuffalo</a></li>
+						<li class="primary-nav-link"><a href="#discussion" rel="bookmark">Discussion</a></li>
+						<li class="primary-nav-link"><a href="#location" rel="bookmark">Location</a></li>
+						<li class="primary-nav-link"><a href="#info" rel="bookmark">Info</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
 
-        <div class="stripe">
-            <section class="wrap">
-                <figure class="hero">
-                    <header>
-                        <h1 class="callout-title">We're a group of Passionate Front-end Web Developers &amp; Advocates living in sunny Buffalo, New York</h1>
-                    </header>
-                    <p class="callout-txt delta">Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate all centered around Front&ndash;end Web Development &amp; Design.</p>
-                </figure>
-            </section>
-        </div>
+		<div class="stripe">
+			<section class="wrap">
+				<figure class="hero">
+					<header>
+						<h1 class="callout-title">We're a group of Passionate Front-end Web Developers &amp; Advocates living in sunny Buffalo, New York</h1>
+					</header>
+					<p class="callout-txt delta">Come hang out every month and build stuff, talk shop, learn cool tricks, engage in thoughtful discussions and debate all centered around Front&ndash;end Web Development &amp; Design.</p>
+				</figure>
+			</section>
+		</div>
 
-        <section id="main-content" role="main">
-            <div class="stripe">
-                <section class="subjects wrap">
-                    <header>
-                        <h1 class="beta">Learn The Cool Stuff</h1>
-                    </header>
-                    <ul id="techList">
-                        <li class="html5">html5</li>
-                        <li class="css3">css3</li>
-                        <li class="javascript">javascript</li>
-                        <li class="jquery">jquery</li>
-                        <li class="wordpress">wordpress</li>
-                        <li class="webstandards">web standards</li>
-                        <li class="accessibility">accessibility</li>
-                        <li class="usability">usability</li>
-                        <li class="responsive">responsive layout</li>
-                        <li class="ajax">ajax</li>
-                        <li class="typography">typography &amp; layout</li>
-                    </ul>
-                </section>
-            </div>
+		<section id="main-content" role="main">
+			<div class="stripe">
+				<section class="subjects wrap">
+					<header>
+						<h1 class="beta">Learn The Cool Stuff</h1>
+					</header>
+					<ul id="techList">
+						<li class="html5">html5</li>
+						<li class="css3">css3</li>
+						<li class="javascript">javascript</li>
+						<li class="jquery">jquery</li>
+						<li class="wordpress">wordpress</li>
+						<li class="webstandards">web standards</li>
+						<li class="accessibility">accessibility</li>
+						<li class="usability">usability</li>
+						<li class="responsive">responsive layout</li>
+						<li class="ajax">ajax</li>
+						<li class="typography">typography &amp; layout</li>
+					</ul>
+				</section>
+			</div>
 
-            <div class="stripe">
-                <section class="wrap" id="discussion">
-                    <header>
-                        <h1 class="beta">You're building the future. Don't do it alone.</h1>
-                    </header>
-                    <p>NextPlex provides online tools that foster entrepreneurial tech communities. Join us on Nextplex where we start discussions and talk about meet up agendas. Consider this our home away from home. A warm cozy space to initiate discussion before each meet up.</p>
-                    <a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" class="join-us" rel="me">Join Us</a>
-                </section>
-            </div>
+			<div class="stripe">
+				<section class="wrap" id="discussion">
+					<header>
+						<h1 class="beta">You're building the future. Don't do it alone.</h1>
+					</header>
+					<p>NextPlex provides online tools that foster entrepreneurial tech communities. Join us on Nextplex where we start discussions and talk about meet up agendas. Consider this our home away from home. A warm cozy space to initiate discussion before each meet up.</p>
+					<a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" class="join-us" rel="me">Join Us</a>
+				</section>
+			</div>
 
-            <div class="stripe">
-                <section class="map-section wrap" id="location">
-                    <header>
-                        <h1 class="beta">Track Us Down</h1>
-                    </header>
-                    <!-- Google Map -->
-                    <!-- https://developers.google.com/maps/documentation/javascript/tutorial -->
-                    <div id="map-canvas"></div>
+			<div class="stripe">
+				<section class="map-section wrap" id="location">
+					<header>
+						<h1 class="beta">Track Us Down</h1>
+					</header>
+					<!-- Google Map -->
+					<!-- https://developers.google.com/maps/documentation/javascript/tutorial -->
+					<div id="map-canvas"></div>
 
-                    <div class="map">
-                        <a href="http://goo.gl/maps/5MpRn" class="map-link">View Map</a>
-                    </div>
-                    <!--End Google Map-->
-                </section>
-            </div>
-        </section>
+					<div class="map">
+						<a href="http://goo.gl/maps/5MpRn" class="map-link">View Map</a>
+					</div>
+					<!--End Google Map-->
+				</section>
+			</div>
+		</section>
 
-        <div class="stripe footer">
-            <footer id="info" class="primary-footer wrap" role="contentinfo">
-                <article class="social-widget">
-                    <ul class="social-networks">
-                        <li><a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me"><span class="fs1" aria-hidden="true" data-icon="&#xe00d;"></span></a></li>
-                        <li><a href="https://twitter.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe000;"></span></a></li>
-                        <li><a href="https://github.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe001;"></span></a></li>
-                        <li><a href="https://plus.google.com/u/0/104139815087059308926/posts"><span class="fs1" aria-hidden="true" data-icon="&#xe00f;"></span></a></li>
-                    </ul>
-                </article>
+		<div class="stripe footer">
+			<footer id="info" class="primary-footer wrap" role="contentinfo">
+				<article class="social-widget">
+					<ul class="social-networks">
+						<li><a href="http://nextplex.com/buffalo-ny/resources/groups/bflofred" rel="me"><span class="fs1" aria-hidden="true" data-icon="&#xe00d;"></span></a></li>
+						<li><a href="https://twitter.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe000;"></span></a></li>
+						<li><a href="https://github.com/BfloFRED"><span class="fs1" aria-hidden="true" data-icon="&#xe001;"></span></a></li>
+						<li><a href="https://plus.google.com/u/0/104139815087059308926/posts"><span class="fs1" aria-hidden="true" data-icon="&#xe00f;"></span></a></li>
+					</ul>
+				</article>
 
-                <!-- BfloFRED e-mail address -->
-                <!-- http://microformats.org -->
-                <!-- http://www.wbwip.com/wbw/emailencoder.html -->
-                <ul class="vcard">
-                    <li class="email"><span aria-hidden="true" class="icon-envelope"></span><a href="mailto:&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
-                    <li class="url"><span aria-hidden="true" class="icon-earth"></span><a href="//bflofred.github.com" rel="me bookmark">https://bflofred.github.com</a></li>
-                    <li class="adr">
-                        <address>
-                            <span class=""><span aria-hidden="true" class="icon-location"></span><a href="//coworkbuffalo.com" rel="external">CoworkBuffalo</a></span>
-                            <span class="street-address">225 Delaware Avenue</span>
-                            <span class="locality">Buffalo</span>
-                            <span class="region">New York</span>
-                        </address>
-                    </li>
-                </ul>
-                <small class="copyright">BfloFRED Founders: Chris Van Patten and Dennis Gaebel Jr. &bull; Sept 25, 2012.</small>
-            </footer>
-        </div>
+				<!-- BfloFRED e-mail address -->
+				<!-- http://microformats.org -->
+				<!-- http://www.wbwip.com/wbw/emailencoder.html -->
+				<ul class="vcard">
+					<li class="email"><span aria-hidden="true" class="icon-envelope"></span><a href="mailto:&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#098;&#102;&#108;&#111;&#102;&#114;&#101;&#100;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
+					<li class="url"><span aria-hidden="true" class="icon-earth"></span><a href="//bflofred.github.com" rel="me bookmark">https://bflofred.github.com</a></li>
+					<li class="adr">
+						<address>
+							<span class=""><span aria-hidden="true" class="icon-location"></span><a href="//coworkbuffalo.com" rel="external">CoworkBuffalo</a></span>
+							<span class="street-address">225 Delaware Avenue</span>
+							<span class="locality">Buffalo</span>
+							<span class="region">New York</span>
+						</address>
+					</li>
+				</ul>
+				<small class="copyright">BfloFRED Founders: Chris Van Patten and Dennis Gaebel Jr. &bull; Sept 25, 2012.</small>
+			</footer>
+		</div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
-        <script src="./js/minified/main-min.js?0.0.4"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+		<script src="./js/minified/main-min.js?0.0.4"></script>
 
-        <!-- Google Analytics -->
-        <script>
-            var _gaq=[['_setAccount','UA-37880949-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.async = true;
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+		<!-- Google Analytics -->
+		<script>
+			var _gaq=[['_setAccount','UA-37880949-1'],['_trackPageview']];
+			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+			g.async = true;
+			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g,s)}(document,'script'));
+		</script>
+		<!-- gridset overlay -->
+		<script src="https://get.gridsetapp.com/13431/overlay/"></script>
+	</body>
 </html>

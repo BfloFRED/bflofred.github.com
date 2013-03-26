@@ -94,73 +94,73 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+	color: #222;
 }
 
 a {
-    text-decoration: none;
-    color: $linkColor;
+	text-decoration: none;
+	color: $linkColor;
 }
 
 a:visited {
-    color: $linkVisitedColor;
+	color: $linkVisitedColor;
 }
 
 a:hover {
-    color: $linkHoverColor;
+	color: $linkHoverColor;
 }
 
 a:focus {
-    outline: $focusStyle;
+	outline: $focusStyle;
 }
 
 // Improve readability when focused
 // and hovered in all browsers: h5bp.com/h
 a:hover,
 a:active {
-    outline: $activeStyle;
+	outline: $activeStyle;
 }
 
 // Remove text-shadow in selection highlight: h5bp.com/i
 // These selection declarations have to be separate.
 // Customize the background color to match your design.
 ::-moz-selection {
-    background: $selectionColor;
-    color: #EFEFEF;
-    text-shadow: none;
+	background: $selectionColor;
+	color: #EFEFEF;
+	text-shadow: none;
 }
 
 ::selection {
-    background: $selectionColor;
-    color: #EFEFEF;
-    text-shadow: none;
+	background: $selectionColor;
+	color: #EFEFEF;
+	text-shadow: none;
 }
 
 // A better looking default horizontal rule
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
 // Remove the gap between images and the bottom of their containers: h5bp.com/i/440
 img {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 // Remove default fieldset styles
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 // Allow only vertical resizing of textareas
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
 
 
@@ -169,8 +169,8 @@ textarea {
 // ==========================================================================
 
 * {
-    // Box Sizing FTW
-    @include box-sizing(border-box);
+	// Box Sizing FTW
+	@include box-sizing(border-box);
 }
 
 img,
@@ -178,8 +178,8 @@ iframe,
 object,
 embed,
 video {
-    height: auto;
-    max-width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
 
@@ -188,12 +188,12 @@ video {
 // ==========================================================================
 
 .wrap {
-    margin: auto auto;
-    max-width: 1024px;
-    width: 100%;
-    @media screen and (max-width: 65em) {
-        padding: 0 5%;
-    }
+	margin: auto auto;
+	max-width: 1024px;
+	width: 100%;
+	@media screen and (max-width: 65em) {
+		padding: 0 5%;
+	}
 }
 
 
@@ -203,30 +203,30 @@ video {
 
 .stripe,
 .stripe.footer {
-    overflow: auto;
+	overflow: auto;
 }
 
 #main-content .stripe,
 .stripe.footer {
-    padding: 1.5em 0;
+	padding: 1.5em 0;
 }
 
 .stripe {
-    #main-content & {
-        &:nth-child(1) {
-            background: darken(#EFEFEF, 5%);
-        }
-        &:nth-child(2) {
-            background: darken(#EFEFEF, 10%);
-        }
-        &:nth-child(3) {
-            background: darken(#EFEFEF, 15%);
-        }
-    }
+	#main-content & {
+		&:nth-child(1) {
+			background: darken(#EFEFEF, 5%);
+		}
+		&:nth-child(2) {
+			background: darken(#EFEFEF, 10%);
+		}
+		&:nth-child(3) {
+			background: darken(#EFEFEF, 15%);
+		}
+	}
 }
 
 .stripe.footer {
-    background: darken(#EFEFEF, 20%);
+	background: darken(#EFEFEF, 20%);
 }
 
 
@@ -236,9 +236,9 @@ video {
 
 // header
 .primary-header {
-    @media screen and (min-width: 48.25em) {
-        position: relative;
-    }
+	@media screen and (min-width: 48.25em) {
+		position: relative;
+	}
 }
 
 
@@ -247,18 +247,18 @@ video {
 // ==========================================================================
 
 #logo {
-    margin: 0.4125em auto;
-    a {
-        display: inline-block;
-        height: 210px;
-        width: 200px;
-        text-indent: -9999em;
-        background: image-url("logo.png") top left no-repeat;
-        background-size: 200px;
-    }
-    @media screen and (max-width: 48.25em) {
-        float: left;
-    }
+	margin: 0.4125em auto;
+	a {
+		display: inline-block;
+		height: 210px;
+		width: 200px;
+		text-indent: -9999em;
+		background: image-url("logo.png") top left no-repeat;
+		background-size: 200px;
+	}
+	@media screen and (max-width: 48.25em) {
+		float: left;
+	}
 }
 
 
@@ -271,82 +271,85 @@ video {
 
 // Toggle Trigger
 .menu-link {
-    float: right;
-    display: block;
-    padding: 1em;
-    // JS Disabled
-    .no-js & {
-        @media screen and (max-width: 48.25em) {
-            display: none;
-        }
-    }
-    @media screen and (min-width: 48.25em) {
-        display: none;
-    }
+	float: right;
+	display: block;
+	padding: 1em;
+	// JS Disabled
+	.no-js & {
+		@media screen and (max-width: 48.25em) {
+			display: none;
+		}
+	}
+	@media screen and (min-width: 48.25em) {
+		display: none;
+	}
 }
 
 // Primary Navigation
 .primary-nav {
-    clear: both;
-    @include transition(0.3s all ease-out);
-    @media screen and (min-width: 48.25em) {
-        position: absolute;
-        top: -1.65em;
-        right: 0;
-        background: #e5e5e5;
-        background: rgba(0, 0, 0, 0.10);
-    }
-    ul {
-        border-top: 1px solid #808080;
-        margin: 0;
-        padding: 0;
-        @media screen and (min-width: 48.25em) {
-            border: 0;
-            margin: 0 0 0 -0.25em;
-        }
-        li {
-            @media screen and (min-width: 48.25em) {
-                display: inline-block;
-            }
-            a {
-                display: block;
-                padding: 0.8em;
-                border-bottom: 1px solid #808080;
-                @media screen and (min-width: 48.25em) {
-                    border: 0;
-                }
-            }
-        }
-    }
+	clear: both;
+	@include transition(0.3s all ease-out);
+	@media screen and (min-width: 48.25em) {
+		position: absolute;
+		top: -1.65em;
+		right: 0;
+		background: #e5e5e5;
+		background: rgba(0, 0, 0, 0.10);
+	}
+	ul {
+		border-top: 1px solid #808080;
+		margin: 0;
+		padding: 0;
+		@media screen and (min-width: 48.25em) {
+			border: 0;
+			margin: 0 0 0 -0.25em;
+		}
+		li {
+			@media screen and (min-width: 48.25em) {
+				display: inline-block;
+			}
+			a {
+				display: block;
+				padding: 0.8em;
+				border-bottom: 1px solid #808080;
+				@media screen and (min-width: 48.25em) {
+					border: 0;
+				}
+			}
+		}
+	}
 
-    // JS Enabled
-    .js & {
-        overflow: hidden;
-        max-height: 0;
-        @media screen and (min-width: 48.25em) {
-            max-height: none;
-        }
-    }
+	// JS Enabled
+	.js & {
+		overflow: hidden;
+		max-height: 0;
+		@media screen and (min-width: 48.25em) {
+			max-height: none;
+		}
+	}
 
-    // Active State
-    &.active {
-        max-height: 15em;
-    }
+	// Active State
+	&.active {
+		max-height: 15em;
+	}
 }
 
 .primary-nav-link {
-    &:not(:first-child) {
-        margin-left: -.25em;
-    }
-    a {
-        @include transition($transition-1: .3s background ease-in-out, $transition-2: .3s color ease-in-out);
-        &:hover {
-            @media screen and (min-width: 48.25em) {
-                background: #CCC;
-                color: #333;
-            }
-        }
-    }
+	&:not(:first-child) {
+		margin-left: -.25em;
+	}
+	@media screen and (min-width: 48.25em) {
+		-webkit-animation: spin 1.75s 2;
+	}
+	a {
+		@include transition($transition-1: .3s background ease-in-out, $transition-2: .3s color ease-in-out);
+		&:hover {
+			@media screen and (min-width: 48.25em) {
+				background: #CCC;
+				color: #333;
+			}
+		}
+	}
 }
 
 
@@ -355,11 +358,11 @@ video {
 // ==========================================================================
 
 .hero {
-    padding-bottom: 1.65em;
+	padding-bottom: 1.65em;
 }
 
 .callout-txt {
-    max-width: 28em;
+	max-width: 28em;
 }
 
 
@@ -368,7 +371,7 @@ video {
 // ==========================================================================
 
 .join-us {
-    @extend %btn;
+	@extend %btn;
 }
 
 
@@ -378,39 +381,39 @@ video {
 
 // From http://codepen.io/chriscoyier/full/kycDp
 .map-container {
-    width: 100%;
-    margin: 0 auto;
-    height: 0;
-    padding-top: 38%;
-    position: relative;
-    display: none; // Hide for small screens
-    // Medium Screens
-    @media all and (min-width: 34.375em) {
-        display: block;
-    }
+	width: 100%;
+	margin: 0 auto;
+	height: 0;
+	padding-top: 38%;
+	position: relative;
+	display: none; // Hide for small screens
+	// Medium Screens
+	@media all and (min-width: 34.375em) {
+		display: block;
+	}
 }
 
 .google-map {
-    width: 100%;
-    // had to specify height/width
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+	width: 100%;
+	// had to specify height/width
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 
 .static-map-img {
-    display: block;
-    // Medium Screens
-    @media all and (min-width: 34.375em) {
-        display: none;
-    }
+	display: block;
+	// Medium Screens
+	@media all and (min-width: 34.375em) {
+		display: none;
+	}
 }
 
 .map-link {
-    @extend %btn;
+	@extend %btn;
 }
 
 
@@ -419,23 +422,23 @@ video {
 // ==========================================================================
 
 .social-networks {
-    @extend %list-reset;
+	@extend %list-reset;
 }
 
 .vcard {
-    @extend %list-reset;
+	@extend %list-reset;
 }
 
 .discussion-content {
-    padding-left: 0;
-    li {
-        list-style-type: none;
-        @media screen and (min-width: 42em) {
-            float: left;
-            list-style-type: none;
-            width: 50%;
-        }
-    }
+	padding-left: 0;
+	li {
+		list-style-type: none;
+		@media screen and (min-width: 42em) {
+			float: left;
+			list-style-type: none;
+			width: 50%;
+		}
+	}
 }
 
 
@@ -445,9 +448,9 @@ video {
 
 [data-icon],
 [class^="icon"] {
-    // http://maxvoltar.com/archive/-webkit-font-smoothing
-    -webkit-font-smoothing: subpixel-antialiased;
-    font-size: 2em;
+	// http://maxvoltar.com/archive/-webkit-font-smoothing
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-size: 2em;
 }
 
 
@@ -459,7 +462,7 @@ video {
 // http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
 // for IE10 Snap Mode on Metro
 @-ms-viewport {
-    width: device-width;
+	width: device-width;
 }
 
 
@@ -477,53 +480,53 @@ video {
 
 // Image replacement
 %ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    // IE 6/7 fallback
-    *text-indent: -9999px;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	// IE 6/7 fallback
+	*text-indent: -9999px;
 
-    &:before {
-        content: "";
-        display: block;
-        width: 0;
-        height: 100%;
-    }
+	&:before {
+		content: "";
+		display: block;
+		width: 0;
+		height: 100%;
+	}
 }
 
 // Hide from both screenreaders and browsers: h5bp.com/u
 %hidden {
-    display: none !important;
-    visibility: hidden;
+	display: none !important;
+	visibility: hidden;
 }
 
 // Hide only visually, but have it available for screenreaders: h5bp.com/v
 %visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 
-    // Extends the .visuallyhidden class to allow the element to be focusable
-    // when navigated to via the keyboard: h5bp.com/p
-    &.focusable:active,
-    &.focusable:focus {
-        clip: auto;
-        height: auto;
-        margin: 0;
-        overflow: visible;
-        position: static;
-        width: auto;
-    }
+	// Extends the .visuallyhidden class to allow the element to be focusable
+	// when navigated to via the keyboard: h5bp.com/p
+	&.focusable:active,
+	&.focusable:focus {
+		clip: auto;
+		height: auto;
+		margin: 0;
+		overflow: visible;
+		position: static;
+		width: auto;
+	}
 }
 
 // Hide visually and from screenreaders, but maintain layout
 %invisible {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 // Clearfix: contain floats
@@ -536,18 +539,18 @@ video {
 // 2. The use of `table` rather than `block` is only necessary if using
 //    `:before` to contain the top-margins of child elements
 %clearfix {
-    // For IE 6/7 only
-    // Include this rule to trigger hasLayout and contain floats
-    *zoom: 1;
+	// For IE 6/7 only
+	// Include this rule to trigger hasLayout and contain floats
+	*zoom: 1;
 
-    &:before,
-    &:after {
-        content: " "; // 1
-        display: table; // 2
-    }
-    &:after {
-        clear: both;
-    }
+	&:before,
+	&:after {
+		content: " "; // 1
+		display: table; // 2
+	}
+	&:after {
+		clear: both;
+	}
 }
 
 
@@ -557,66 +560,66 @@ video {
 // ==========================================================================
 
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; // Black prints faster: h5bp.com/s
-        box-shadow:none !important;
-        text-shadow: none !important;
-    }
+	* {
+		background: transparent !important;
+		color: #000 !important; // Black prints faster: h5bp.com/s
+		box-shadow:none !important;
+		text-shadow: none !important;
+	}
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+	}
 
-    // Don't show links for images, or javascript/internal links
+	// Don't show links for images, or javascript/internal links
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content: "";
+	}
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+	pre,
+	blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
 
-    thead {
-        display: table-header-group; // h5bp.com/t
-    }
+	thead {
+		display: table-header-group; // h5bp.com/t
+	}
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
 
-    img {
-        max-width: 100% !important;
-    }
+	img {
+		max-width: 100% !important;
+	}
 
-    @page {
-        margin: 0.5cm;
-    }
+	@page {
+		margin: 0.5cm;
+	}
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
 }

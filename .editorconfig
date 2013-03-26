@@ -11,15 +11,15 @@ insert_final_newline = false
 
 ; HTML
 [*.html]
-indent_style = space
+indent_style = tab
 indent_size = 4
 
 ; CSS
 [*.css]
-indent_style = space
+indent_style = tab
 indent_size = 4
 
 ; Javascript
 [*.js]
-indent_style = space
+indent_style = tab
 indent_size = 4

@@ -291,13 +291,13 @@ video {
     @include transition(0.3s all ease-out);
     @media screen and (min-width: 48.25em) {
         position: absolute;
-        top: -1.65em;
+        top: em(30px);
         right: 0;
-        background: #e5e5e5;
-        background: rgba(0, 0, 0, 0.10);
+        // background: #e5e5e5;
+        // background: rgba(0, 0, 0, 0.10);
     }
     ul {
-        border-top: 1px solid #808080;
+        // border-top: 1px solid #808080;
         margin: 0;
         padding: 0;
         @media screen and (min-width: 48.25em) {
@@ -311,7 +311,9 @@ video {
             a {
                 display: block;
                 padding: 0.8em;
-                border-bottom: 1px solid #808080;
+                // border-bottom: 1px solid #808080;
+                font-size: em(22px);
+                text-align: center;
                 @media screen and (min-width: 48.25em) {
                     border: 0;
                 }
@@ -342,6 +344,12 @@ video {
         @include transition($transition-1: .3s background ease-in-out, $transition-2: .3s color ease-in-out);
         &:hover {
             @media screen and (min-width: 48.25em) {
+                /*
+                    Height property below is just for visual explanation
+                    Would like to see some sort of icon in the extra
+                    "white space" area created by extra height on hover
+                */
+                height: em(120px);
                 background: #CCC;
                 color: #333;
             }

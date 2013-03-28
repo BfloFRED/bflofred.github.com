@@ -293,8 +293,8 @@ video {
 		position: absolute;
 		top: -1.65em;
 		right: 0;
-		background: #e5e5e5;
-		background: rgba(0, 0, 0, 0.10);
+		// background: #e5e5e5;
+		// background: rgba(0, 0, 0, 0.10);
 	}
 	ul {
 		border-top: 1px solid #808080;
@@ -310,8 +310,10 @@ video {
 			}
 			a {
 				display: block;
+                margin: 0 em(4px) 0 em(4px);
 				padding: 0.8em;
 				border-bottom: 1px solid #808080;
+                font-size: em(23px);
 				@media screen and (min-width: 48.25em) {
 					border: 0;
 				}
@@ -345,7 +347,9 @@ video {
 		@include transition($transition-1: .3s background ease-in-out, $transition-2: .3s color ease-in-out);
 		&:hover {
 			@media screen and (min-width: 48.25em) {
-				background: #CCC;
+                height: em(135px);
+                background: #e5e5e5;
+                background: rgba(0, 0, 0, 0.10);
 				color: #333;
 			}
 		}

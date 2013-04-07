@@ -1,12 +1,12 @@
-// https://github.com/gruntjs
-// http://gruntjs.com
+// == https://github.com/gruntjs
+// == http://gruntjs.com
 
-// global module:false
+// == global module:false
 module.exports = function(grunt) {
 
-	// Project configuration.
+	// == Project configuration.
 	grunt.initConfig({
-		// Metadata.
+		// == Metadata.
 		pkg: grunt.file.readJSON('package.json'),
 		banner: '/*! <%= pkg.title || pkg.name %> - v<%= pkg.version %> - ' +
 		'<%= grunt.template.today("yyyy-mm-dd") %>\n' +
@@ -25,6 +25,14 @@ module.exports = function(grunt) {
 				dest: 'js/grunt/concat/main-concat.js'
 			}
 		},
+		// == Watching
+		watch: {
+			src: {
+				files: ['js/main.js'],
+				tasks: ['default']
+			}
+		},
+		// == Hinting
 		jshint: {
 			options: {
 				curly: true,
@@ -49,6 +57,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		// == Uglify/Minification
 		uglify: {
 			dist: {
 				src: 'js/grunt/concat/main-concat.js',
@@ -57,11 +66,13 @@ module.exports = function(grunt) {
 		}
 	});
 	
-	//Grunt Tasks
+	// == Grunt Tasks
+	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 
-	// Default task.
+	// == Default task.
+	grunt.registerTask('watchme', ['watch']);
 	grunt.registerTask('default', ['jshint', 'concat',  'uglify']);
 };
